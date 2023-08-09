@@ -66,9 +66,9 @@
                 display: none;
             } 
             
-            #navPanel, #titleBar {
+            /* #navPanel, #titleBar {
                 display: none;
-            }
+            } */
 
 @media screen and (max-width: 736px) {
     #page-wrapper {

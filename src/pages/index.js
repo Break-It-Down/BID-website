@@ -7,15 +7,13 @@ import Banner from "../components/banner"
 import Carousel from "../components/carousel"
 import UpcomingEvents from "../components/upcomingEvents"
 import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const IndexPage = () => (
-  <div>
-    <Header/>
-	<Banner/>
-	{/* <Carousel/> */}
-	<UpcomingEvents/>
-	<Footer/>
-  </div>
+	<Layout>
+		<Banner/>
+		<UpcomingEvents/>
+	</Layout>
 )
 
 /**
