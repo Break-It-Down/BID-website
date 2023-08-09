@@ -1,0 +1,27 @@
+#banner {
+    background: #fff;
+    text-align: center;
+    padding: 3em 0 3em 0;
+    margin-bottom: 0;
+}
+
+    #banner header > p {
+        margin-bottom: 0;
+    }
+
+    #banner h2 {
+        font-size: 1.75em;
+    }
+
+@media screen and (max-width: 1280px) {
+    #banner {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #banner {
+        padding: 3em 2em 3em 2em;
+    }
+}
