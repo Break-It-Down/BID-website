@@ -20,6 +20,10 @@
     margin-right: auto;
 }
 
+.h2-banner {
+    font-size: 2em;
+}
+
 @media screen and (max-width: 1280px) {
     #banner {
         padding-left: 2em;

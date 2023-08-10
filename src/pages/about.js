@@ -3,11 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Banner from "../components/banner"
+import AboutBanner from "../components/about-banner"
+import MissionVision from "../components/mission-vision"
+import MeetGroups from "../components/meet-groups-banner"
 
 const AboutPage = () => (
   <Layout>
-    <Banner/>
+    <AboutBanner/>
+    <MissionVision/>
+    <MeetGroups/>
   </Layout>
 )
 
