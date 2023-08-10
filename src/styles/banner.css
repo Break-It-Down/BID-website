@@ -9,10 +9,6 @@
         margin-bottom: 0;
     }
 
-    #banner h2 {
-        font-size: 1.75em;
-    }
-
 .learnMore {
     background-color: #FEE1D4;
     color: #242F6B;
@@ -35,4 +31,17 @@
     #banner {
         padding: 3em 2em 3em 2em;
     }
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* box-sizing: border-box; */
+}
+    .row.aln-center {
+        justify-content: center;
+    }
+
+.numbers {
+    margin: 0em 4em 0em 4em;
 }

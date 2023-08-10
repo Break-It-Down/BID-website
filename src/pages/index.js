@@ -8,11 +8,13 @@ import Carousel from "../components/carousel"
 import UpcomingEvents from "../components/upcomingEvents"
 import Footer from "../components/footer"
 import Layout from "../components/layout"
+import NumbersBanner from "../components/numbers-banner"
 
 const IndexPage = () => (
 	<Layout>
 		<Banner/>
 		<UpcomingEvents/>
+		<NumbersBanner/>
 	</Layout>
 )
 
