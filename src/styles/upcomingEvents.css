@@ -1,7 +1,7 @@
 .wrapper {
     background: #fff;
     text-align: center;
-    padding: 3em 2em 3em 2em;
+    padding: 3em 3em 3em 3em;
     margin: 1em 0 1em 0;
 }
 
@@ -20,8 +20,12 @@
     .image.featured {
         display: block;
         width: 100%;
-        margin: 1em 0 1em 0;
+        margin: 1em 0 0 0;
     }
+
+.h2-banner {
+    font-size: 2em;
+}
 
 @media screen and (max-width: 1680px) {
 
@@ -40,6 +44,10 @@
     .container {
         width: 100%;
     }
+
+    .image.featured {
+        margin: 0 0 0.0 0;
+    }
 }
 
 
@@ -53,7 +61,7 @@
     }
 
     .image.featured {
-        margin: 0 0 2em 0;
+        margin: 0 0 0 0;
     }
 }
 
