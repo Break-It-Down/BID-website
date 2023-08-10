@@ -9,7 +9,7 @@ const MeetGroups = () => (
         <h3>
         Comprised of 25 groups from all over the country, Break it Down etc.....
         </h3>   
-        <a href="/groups"><Button class="learnMore">Groups</Button></a>    
+        <a href="/groups"><Button class="banner-button">Groups</Button></a>    
     </div>
 )
 

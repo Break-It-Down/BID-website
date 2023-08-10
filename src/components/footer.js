@@ -18,15 +18,13 @@ const Footer = () => (
         <div class="col-12">
                 <section class="contact">
                     <header>
-                        <h3>Nisl turpis nascetur interdum?</h3>
+                        <h3>Stay Connected!</h3>
                     </header>
                     <ul class="icons">
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a></li>
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faFacebookF} style={{color: "#ffffff",}} size="1x" /></a></li>
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} size="1x" /></a></li>
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faYoutube} style={{color: "#ffffff",}} size="1x" /></a></li>
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faSpotify} style={{color: "#ffffff",}} size="1x" /></a></li>
-                        <li><a href="#" class="icon brands"><FontAwesomeIcon icon={faTiktok} style={{color: "#ffffff",}} size="1x" /></a></li>
+                        <li><a href="mailto:breakitdown.uni@gmail.com" class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a></li>
+                        <li><a href="https://www.tiktok.com/@breakitdownorg" class="icon brands"><FontAwesomeIcon icon={faTiktok} size="1x" /></a></li>
+                        <li><a href="https://www.instagram.com/breakitdownorg/" class="icon brands"><FontAwesomeIcon icon={faInstagram} size="1x" /></a></li>
+                        <li><a href="https://www.youtube.com/" class="icon brands"><FontAwesomeIcon icon={faYoutube} size="1x" /></a></li>
                     </ul>
                 </section>
 

@@ -10,7 +10,7 @@ const Banner = () => (
         Break It Down (BiD) is a gathering of <b>20+ Christian a cappella</b> groups <u>across the country</u> to 
         unite together to <b>share the gospel of Jesus Christ</b> through music!
         </h3>   
-        <a href="/about"><Button class="learnMore">Learn more!</Button></a>    
+        <a href="/about"><Button class="banner-button">Learn more!</Button></a>    
     </div>
 )
 

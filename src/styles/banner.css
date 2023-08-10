@@ -9,12 +9,13 @@
         margin-bottom: 0;
     }
 
-.learnMore {
+.banner-button {
     background-color: #FEE1D4;
     color: #242F6B;
     font-size: 15px;
     border-radius: 20px;
     width: 180px;
+    height: 40px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
