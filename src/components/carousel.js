@@ -3,13 +3,15 @@ import { Link } from "gatsby"
 import "../styles/carousel.css"
 // import Carousel from 'react-multi-carousel';
 // import 'react-multi-carousel/lib/styles.css';
+import { StaticImage } from "gatsby-plugin-image"
+
 
 
 const Carousel = () => (
     <div class="carousel">
         <div class="reel">
             <article>
-                <img src="../images/pic01.jpg" alt="" />
+            <a href="#" class="image featured"><StaticImage src="../images/pic01.jpg" alt="" /></a>
                 <header>
                     <h3><a href="#">Pulvinar sagittis congue</a></h3>
                 </header>
@@ -17,7 +19,7 @@ const Carousel = () => (
             </article>
 
             <article>
-                <a href="#" class="image featured"><img src="../images/pic02.jpg" alt="" /></a>
+                <a href="#" class="image featured"><StaticImage src="../images/pic02.jpg" alt="" /></a>
                 <header>
                     <h3><a href="#">Fermentum sagittis proin</a></h3>
                 </header>
@@ -25,7 +27,7 @@ const Carousel = () => (
             </article>
 
             <article>
-                <a href="#" class="image featured"><img src="../images/pic03.jpg" alt="" /></a>
+                <a href="#" class="image featured"><StaticImage src="../images/pic03.jpg" alt="" /></a>
                 <header>
                     <h3><a href="#">Sed quis rhoncus placerat</a></h3>
                 </header>
@@ -33,7 +35,7 @@ const Carousel = () => (
             </article>
 
             <article>
-                <a href="#" class="image featured"><img src="../images/pic04.jpg" alt="" /></a>
+                <a href="#" class="image featured"><StaticImage src="../images/pic04.jpg" alt="" /></a>
                 <header>
                     <h3><a href="#">Ultrices urna sit lobortis</a></h3>
                 </header>
@@ -41,7 +43,7 @@ const Carousel = () => (
             </article>
 
             <article>
-                <a href="#" class="image featured"><img src="../images/pic05.jpg" alt="" /></a>
+                <a href="#" class="image featured"><StaticImage src="../images/pic05.jpg" alt="" /></a>
                 <header>
                     <h3><a href="#">Varius magnis sollicitudin</a></h3>
                 </header>

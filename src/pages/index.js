@@ -15,6 +15,7 @@ const IndexPage = () => (
 		<Banner/>
 		<UpcomingEvents/>
 		<NumbersBanner/>
+		<Carousel/>
 	</Layout>
 )
 
