@@ -27,6 +27,16 @@
     font-size: 2em;
 }
 
+.group {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.h4-banner {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 @media screen and (max-width: 1680px) {
 
     .container {
