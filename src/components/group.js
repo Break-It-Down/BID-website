@@ -5,11 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faFacebookF,
     faInstagram,
-    faYoutube,
-    faSpotify,
     faTiktok
   } from '@fortawesome/free-brands-svg-icons'
-  import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+  import {faEnvelope, faGlobe} from '@fortawesome/free-solid-svg-icons'
 import "../styles/group.css";
 
 const Group = ({group}) => (
@@ -22,13 +20,12 @@ const Group = ({group}) => (
                 </div>
                 <div class="host-card"> 
                     { group.groupPhoto != "" ? group.groupPhoto : <div class="group-photo"></div>}
-                    <div>
                     <div class="icons">
-                        <a href="mailto:breakitdown.uni@gmail.com" class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a>
-                        <a href="https://www.tiktok.com/@breakitdownorg" class="icon brands"><FontAwesomeIcon icon={faTiktok} size="1x" /></a>
-                        <a href="https://www.instagram.com/breakitdownorg/" class="icon brands"><FontAwesomeIcon icon={faInstagram} size="1x" /></a>
-                        <a href="https://www.youtube.com/" class="icon brands"><FontAwesomeIcon icon={faYoutube} size="1x" /></a>
-                    </div>
+                        {group.media.email ? <a href={"mailto:" + group.media.email} class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a> : null }
+                        {group.media.website ? <a href={group.media.website} class="icon brands"><FontAwesomeIcon icon={faGlobe} size="1x" /></a> : null }
+                        {group.media.facebook ? <a href={group.media.facebook} class="icon brands"><FontAwesomeIcon icon={faFacebookF} size="1x" /></a> : null }
+                        {group.media.instagram ? <a href={group.media.instagram} class="icon brands"><FontAwesomeIcon icon={faInstagram} size="1x" /></a> : null }
+                        {group.media.tiktok ? <a href={group.media.tiktok} class="icon brands"><FontAwesomeIcon icon={faTiktok} size="1x" /></a> : null }
                     </div>
                 </div>
             </ReactCardFlipper>
@@ -42,13 +39,12 @@ const Group = ({group}) => (
                 </div>
                 <div class="card"> 
                     { group.groupPhoto != "" ? group.groupPhoto : <div class="group-photo"></div>}
-                    <div>
                     <div class="icons">
-                        <a href="mailto:breakitdown.uni@gmail.com" class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a>
-                        <a href="https://www.tiktok.com/@breakitdownorg" class="icon brands"><FontAwesomeIcon icon={faTiktok} size="1x" /></a>
-                        <a href="https://www.instagram.com/breakitdownorg/" class="icon brands"><FontAwesomeIcon icon={faInstagram} size="1x" /></a>
-                        <a href="https://www.youtube.com/" class="icon brands"><FontAwesomeIcon icon={faYoutube} size="1x" /></a>
-                    </div>
+                        {group.media.email ? <a href={"mailto:" + group.media.email} class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a> : null }
+                        {group.media.website ? <a href={group.media.website} class="icon brands"><FontAwesomeIcon icon={faGlobe} size="1x" /></a> : null }
+                        {group.media.facebook ? <a href={group.media.facebook} class="icon brands"><FontAwesomeIcon icon={faFacebookF} size="1x" /></a> : null }
+                        {group.media.instagram ? <a href={group.media.instagram} class="icon brands"><FontAwesomeIcon icon={faInstagram} size="1x" /></a> : null }
+                        {group.media.tiktok ? <a href={group.media.tiktok} class="icon brands"><FontAwesomeIcon icon={faTiktok} size="1x" /></a> : null }
                     </div>
                 </div>
             </ReactCardFlipper>

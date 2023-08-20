@@ -9,7 +9,7 @@ const Groups = [
         location: "Amherst, Massachussets",
         logo: "",
         groupPhoto: "",
-        media: [{email: "tirradient@amherst.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "tirradient@amherst.edu", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -19,7 +19,7 @@ const Groups = [
         location: "Boston, Massachussets",
         logo: "",
         groupPhoto: "",
-        media: [{email: "atcurrent@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "atcurrent@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     }, 
@@ -29,7 +29,7 @@ const Groups = [
         location: "Boston, Massachussets",
         logo: <StaticImage src='../images/logos/BU.png' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/BU.jpg' class="group-photo"/>,
-        media: [{email: "bumseed@gmail.com", website: "https://www.bumustardseed.com/", facebook: "https://www.facebook.com/BUMustardSeedOfficial/", instagram: "https://www.instagram.com/bumustardseed/", tiktok: ""}],
+        media: {email: "bumseed@gmail.com", website: "https://www.bumustardseed.com/", facebook: "https://www.facebook.com/BUMustardSeedOfficial/", instagram: "https://www.instagram.com/bumustardseed/", tiktok: ""},
         active: true,
         host: false
     },
@@ -39,7 +39,7 @@ const Groups = [
         location: "Pittsburgh, Pennsylvania",
         logo: "",
         groupPhoto: "",
-        media: [{email: "cmujoyfulnoise@gmail.com", website: "", facebook: "https://www.facebook.com/cmujoyfulnoise", instagram: "https://www.instagram.com/cmujoyfulnoise/", tiktok: ""}],
+        media: {email: "cmujoyfulnoise@gmail.com", website: "", facebook: "https://www.facebook.com/cmujoyfulnoise", instagram: "https://www.instagram.com/cmujoyfulnoise/", tiktok: ""},
         active: true,
         host: false
     },
@@ -49,7 +49,7 @@ const Groups = [
         location: "New York City, New York",
         logo: <StaticImage src='../images/logos/Columbia.jpg' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/Columbia.jpg' class="group-photo"/>,
-        media: [{email: "jubilationcu@gmail.com", website: "https://www.jube.org/", facebook: "https://www.facebook.com/jubilationCU", instagram: "https://www.instagram.com/jubilationcu/", tiktok: ""}],
+        media: {email: "jubilationcu@gmail.com", website: "https://www.jube.org/", facebook: "https://www.facebook.com/jubilationCU", instagram: "https://www.instagram.com/jubilationcu/", tiktok: ""},
         active: true,
         host: false
     },
@@ -59,7 +59,7 @@ const Groups = [
         location: "Ithaca, New York",
         logo: "",
         groupPhoto: "",
-        media: [{email: "cornell.measureless@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "cornell.measureless@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -69,7 +69,7 @@ const Groups = [
         location: "Durham, North Carolina",
         logo: "",
         groupPhoto: "",
-        media: [{email: "", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -79,7 +79,7 @@ const Groups = [
         location: "Cambridge, Massachussets",
         logo: "",
         groupPhoto: "",
-        media: [{email: "", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -89,7 +89,7 @@ const Groups = [
         location: "Baltimore, Maryland",
         logo: <StaticImage src='../images/logos/JHU.png' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/JHU.jpg' class="group-photo"/>,
-        media: [{email: "adoremusjhu@gmail.com", website: "https://sites.google.com/view/jhu-adoremus/home", facebook: "https://www.facebook.com/jhuadoremus/", instagram: "https://www.instagram.com/adoremusjhu/", tiktok: ""}],
+        media: {email: "adoremusjhu@gmail.com", website: "https://sites.google.com/view/jhu-adoremus/home", facebook: "https://www.facebook.com/jhuadoremus/", instagram: "https://www.instagram.com/adoremusjhu/", tiktok: ""},
         active: true,
         host: false
     },
@@ -99,7 +99,7 @@ const Groups = [
         location: "Lynchburg, Virginia",
         logo: "",
         groupPhoto: "",
-        media: [{email: "", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -109,7 +109,7 @@ const Groups = [
         location: "Cambridge, Masschussets",
         logo: <StaticImage src='../images/logos/MIT.png' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="group-photo"/>,
-        media: [{email: "xprod-exec@mit.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "xprod-exec@mit.edu", website: "https://xprod.mit.edu/", facebook: "https://www.facebook.com/crossproducts", instagram: "https://www.instagram.com/mit.crossproducts/", tiktok: ""},
         active: true,
         host: false
     },
@@ -119,7 +119,7 @@ const Groups = [
         location: "New York City, New York",
         logo: "",
         groupPhoto: "",
-        media: [{email: "", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -129,7 +129,7 @@ const Groups = [
         location: "Princeton, New Jersey",
         logo: "",
         groupPhoto: "",
-        media: [{email: "kspirit@princeton.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "kspirit@princeton.edu", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -139,7 +139,7 @@ const Groups = [
         location: "New Brunswick, New Jersey",
         logo: "",
         groupPhoto: "",
-        media: [{email: "firstlightru@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "firstlightru@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -149,7 +149,7 @@ const Groups = [
         location: "Palo Alto, California",
         logo: "",
         groupPhoto: "",
-        media: [{email: "testimony@lists.stanford.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "testimony@lists.stanford.edu", website: "https://testimonyacappella.weebly.com/", facebook: "https://www.facebook.com/testimonyacappella/", instagram: "https://www.instagram.com/testimonyacappella/", tiktok: ""},
         active: true,
         host: false
     },
@@ -159,7 +159,7 @@ const Groups = [
         location: "Ewing Township, New Jersey",
         logo: "",
         groupPhoto: "",
-        media: [{email: "vofhope@tcnj.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "vofhope@tcnj.edu", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -169,7 +169,7 @@ const Groups = [
         location: "Berkeley, California",
         logo: <StaticImage src='../images/logos/UC Berkeley.jpg' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/UC Berkeley.jpeg' class="group-photo"/>,
-        media: [{email: "fcsberkeley@gmail.com", website: "forchristssake.berkeley.edu ", facebook: "https://www.facebook.com/fcsacappella", instagram: "https://www.instagram.com/fcsacappella/", tiktok: "https://www.tiktok.com/@fcsacappella"}],
+        media: {email: "fcsberkeley@gmail.com", website: "forchristssake.berkeley.edu ", facebook: "https://www.facebook.com/fcsacappella", instagram: "https://www.instagram.com/fcsacappella/", tiktok: "https://www.tiktok.com/@fcsacappella"},
         active: true,
         host: false
     },
@@ -179,7 +179,7 @@ const Groups = [
         location: "Los Angeles, California",
         logo: <StaticImage src='../images/logos/UCLA.png' class="host-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/UCLA.jpg' class="host-photo"/>,
-        media: [{email: "rtdacappella@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "rtdacappella@gmail.com", website: "https://rtdacappella.weebly.com/", facebook: "https://www.facebook.com/rtdacappella", instagram: "https://www.instagram.com/rtdacappella/", tiktok: ""},
         active: true,
         host: true
     },
@@ -189,7 +189,7 @@ const Groups = [
         location: "Chapel Hill, North Carolina",
         logo: "",
         groupPhoto: "",
-        media: [{email: "", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -199,7 +199,7 @@ const Groups = [
         location: "Philadelphia, Pennsylvania",
         logo: <StaticImage src='../images/logos/UPenn.png' class="group-logo"/>,
         groupPhoto: "",
-        media: [{email: "fullmeasure.penn@gmail.com", website: "full-measure.org", facebook: "https://www.facebook.com/FullMeasure", instagram: "https://www.instagram.com/upenn.fullmeasure/", tiktok: "https://www.tiktok.com/@upennfullmeasure"}],
+        media: {email: "fullmeasure.penn@gmail.com", website: "full-measure.org", facebook: "https://www.facebook.com/FullMeasure", instagram: "https://www.instagram.com/upenn.fullmeasure/", tiktok: "https://www.tiktok.com/@upennfullmeasure"},
         active: true,
         host: false
     },
@@ -209,7 +209,7 @@ const Groups = [
         location: "Pittsburgh, Pennsylvania",
         logo: "",
         groupPhoto: "",
-        media: [{email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -219,7 +219,7 @@ const Groups = [
         location: "Charlottesville, Virginia",
         logo: "",
         groupPhoto: "",
-        media: [{email: "choose-exec@virginia.edu", website: "https://christianhoosexalt.wixsite.com/website", facebook: "https://www.facebook.com/CHoosE.at.UVA", instagram: "", tiktok: ""}],
+        media: {email: "choose-exec@virginia.edu", website: "https://christianhoosexalt.wixsite.com/website", facebook: "https://www.facebook.com/CHoosE.at.UVA", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -229,7 +229,7 @@ const Groups = [
         location: "Los Angeles, California",
         logo: "",
         groupPhoto: "",
-        media: [{email: "overflow.usc@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "overflow.usc@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -239,7 +239,7 @@ const Groups = [
         location: "Wellesley, Massachussets",
         logo: "",
         groupPhoto: "",
-        media: [{email: "awakenthedawn_wcso@wellesley.edu", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "awakenthedawn_wcso@wellesley.edu", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     },
@@ -249,7 +249,7 @@ const Groups = [
         location: "New Haven, Connecticut",
         logo: "",
         groupPhoto: "",
-        media: [{email: "livingwateratyale@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""}],
+        media: {email: "livingwateratyale@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
         active: true,
         host: false
     }
