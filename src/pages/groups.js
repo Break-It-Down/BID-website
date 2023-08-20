@@ -9,13 +9,14 @@ import Group from "../components/group"
 
 import "../styles/upcomingEvents.css"
 
-const grps = Groups.filter((group) => !group.host);
+// Filter host and non-active groups
+const grps = Groups.filter((group) => !group.host && group.active);
 
 const groupRows = [];
 for (var i = 0; i < grps.length; i += 4) {
   let rowGroups = grps.slice(i, i+4);
   groupRows.push(
-    <div className='row aln-center'>
+    <div className='row aln-center' style={{margin: "0px auto 20px auto"}}>
       {rowGroups.map(group => <Group group={group} />)}
     </div>
   );

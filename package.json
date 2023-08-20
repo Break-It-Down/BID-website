@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
+    "react-card-flipper": "^1.0.1",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.4"
