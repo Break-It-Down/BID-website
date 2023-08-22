@@ -38,6 +38,7 @@
 
         #footer .copyright a {
             color: rgba(128, 128, 128, 0.75);
+            text-decoration: none;
         }
 
             #footer .copyright a:hover {
