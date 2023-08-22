@@ -4,51 +4,26 @@ import "../styles/carousel.css"
 // import Carousel from 'react-multi-carousel';
 // import 'react-multi-carousel/lib/styles.css';
 import { StaticImage } from "gatsby-plugin-image"
+import PastEvents from "../content/pastEvents"
 
-
+const pastEventsArray = [];
+for (var i = 0; i < PastEvents.length; i ++) {
+    let curr = PastEvents[i];
+    pastEventsArray.push(
+        <article>
+            <a href="#" class="image featured"><StaticImage src="../images/pic01.jpg" alt="" /></a>
+                <header>
+                    <h3>{curr.title}</h3>
+                </header>
+                <p>{curr.date} | {curr.school}<br/>{curr.host}</p>
+        </article>
+  );
+}
 
 const Carousel = () => (
     <div class="carousel">
         <div class="reel">
-            <article>
-            <a href="#" class="image featured"><StaticImage src="../images/pic01.jpg" alt="" /></a>
-                <header>
-                    <h3><a href="#">Pulvinar sagittis congue</a></h3>
-                </header>
-                <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-            </article>
-
-            <article>
-                <a href="#" class="image featured"><StaticImage src="../images/pic02.jpg" alt="" /></a>
-                <header>
-                    <h3><a href="#">Fermentum sagittis proin</a></h3>
-                </header>
-                <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-            </article>
-
-            <article>
-                <a href="#" class="image featured"><StaticImage src="../images/pic03.jpg" alt="" /></a>
-                <header>
-                    <h3><a href="#">Sed quis rhoncus placerat</a></h3>
-                </header>
-                <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-            </article>
-
-            <article>
-                <a href="#" class="image featured"><StaticImage src="../images/pic04.jpg" alt="" /></a>
-                <header>
-                    <h3><a href="#">Ultrices urna sit lobortis</a></h3>
-                </header>
-                <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-            </article>
-
-            <article>
-                <a href="#" class="image featured"><StaticImage src="../images/pic05.jpg" alt="" /></a>
-                <header>
-                    <h3><a href="#">Varius magnis sollicitudin</a></h3>
-                </header>
-                <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-            </article>
+            {pastEventsArray}
         </div>
     </div>
 )
