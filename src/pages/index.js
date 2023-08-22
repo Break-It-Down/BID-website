@@ -11,12 +11,14 @@ import Layout from "../components/layout"
 import NumbersBanner from "../components/numbers-banner"
 
 const IndexPage = () => (
-	<Layout>
+	<div>
+		<Header home="true"/>
 		<Banner/>
 		<UpcomingEvents/>
 		<NumbersBanner/>
 		<Carousel/>
-	</Layout>
+		<Footer/>
+	</div>
 )
 
 /**
