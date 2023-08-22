@@ -1,13 +1,14 @@
+@import url('theme.css');
 #footer {
     position: relative;
     overflow: hidden;
     padding: 2em 0 2em 0;
-    background: #2b252c;
-    color: #fff;
+    background: var(--purple-bg);
+    color: var(--body-text);
 }
 
     #footer .icon.circled {
-        background: #fff;
+        background: var(--body-text);
         color: #2b252c;
     }
 
@@ -17,7 +18,7 @@
     }
 
     #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-        color: #fff;
+        color: var(--body-text);
     }
 
     #footer .contact {
@@ -31,18 +32,19 @@
 
     #footer .copyright {
         text-align: center;
-        color: rgba(128, 128, 128, 0.75);
+        color: var(--body-text);
         font-size: 0.8em;
         cursor: default;
     }
 
         #footer .copyright a {
-            color: rgba(128, 128, 128, 0.75);
+            color: var(--body-text);
             text-decoration: none;
         }
 
             #footer .copyright a:hover {
-                color: rgba(212, 212, 212, 0.85);
+                /* color: rgba(212, 212, 212, 0.85); */
+                color: var(--color-primary);
             }
 
 @media screen and (max-width: 1280px) {
@@ -108,7 +110,7 @@ ul.icons {
         }
 
             ul.icons li a:hover {
-                color: #ef8376;
+                color: var(--color-primary);
             }
 
 .icon {
