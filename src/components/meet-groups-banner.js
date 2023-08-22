@@ -7,7 +7,9 @@ const MeetGroups = () => (
     <div id="banner">
         <h2 class="h2-banner">Meet the Groups</h2>
         <h3>
-        Comprised of 25 groups from all over the country, Break it Down etc.....
+        Comprised of 25 groups from all over the country, Break it Down strives to 
+        share the gospel and good news of Jesus Christ through this niche art of Christian a cappella.
+        Check out the hosts and participants for this year's Break it Down!
         </h3>   
         <a href="/groups"><Button class="banner-button">Groups</Button></a>    
     </div>
