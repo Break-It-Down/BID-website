@@ -1,8 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import "../styles/upcomingEvents.css"
-import eastCoast from "../images/pic07.jpg"
-import westCoast from "../images/pic08.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 
 const UpcomingEvents = () => (
     <div class="wrapper">
@@ -12,7 +11,7 @@ const UpcomingEvents = () => (
         <div class="row aln-center">
             <div class="col-4 col-12-mobile special">
                 {/* Add links for schools once groups is created */}
-                <a href="#" class="image featured"><img src={westCoast} alt="west coast host"/></a>
+                <a href="/groups#hosts" class="image featured"><StaticImage src="../images/pic08.jpg"/></a>
                 <h2 class="h2-banner"><a href="/groups">BiDLA</a></h2>
                 <h3>
                 Host: UCLA Road to Damascus <br/>
@@ -20,15 +19,15 @@ const UpcomingEvents = () => (
                 Date: TBD
                 </h3>
             </div>
-            <article class="col-4 col-12-mobile special">
-                <a href="#" class="image featured"><img src={eastCoast} alt="east coast host" /></a>
+            <div class="col-4 col-12-mobile special">
+                <a href="/groups#hosts" class="image featured"><StaticImage src="../images/pic07.jpg"/></a>
                 <h2 class="h2-banner"><a href="/groups">BiD?</a></h2>
                 <h3>
                 Host: Could be your group! <br/>Message us if you’re interested! <br/>
                 Location: TBD <br/>
                 Date: TBD
                 </h3>
-            </article>
+            </div>
         </div>
     </div>
 )

@@ -25,16 +25,28 @@
     font-size: 2em;
 }
 
+.numbers {
+    margin: 0em 4em 0em 4em;
+}
+
 @media screen and (max-width: 1280px) {
     #banner {
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    .numbers {
+        margin: 0em 2em 0em 2em;
     }
 }
 
 @media screen and (max-width: 736px) {
     #banner {
         padding: 3em 2em 3em 2em;
+    }
+
+    .numbers {
+        margin: 0em 4em 0em 4em;
     }
 }
 
@@ -46,7 +58,3 @@
     .row.aln-center {
         justify-content: center;
     }
-
-.numbers {
-    margin: 0em 4em 0em 4em;
-}

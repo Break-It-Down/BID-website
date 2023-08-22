@@ -7,7 +7,7 @@ import Group from "../components/group"
 const grps = Groups.filter((group) => group.host && group.active);
 
 const Hosts = () => (
-    <div class="wrapper">
+    <div id="hosts" class="wrapper">
         <h2><strong>2023 Hosts</strong></h2>
         <Group group={grps.at(0)} />
         {/* Add below if second host */}
