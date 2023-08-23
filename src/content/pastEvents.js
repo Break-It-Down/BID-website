@@ -7,21 +7,21 @@ const PastEvents = [
         date: "March 25, 2023",
         host: "For Christ's Sake",
         school: "UC Berkeley",
-        youtube: "",
+        youtube: "https://www.youtube.com/embed/ULxTFm82qNs",
     },
     {
         title: "BIDPhilly",
         date: "Feb 25, 2023",
         host: "Full Measure",
         school: "UPenn",
-        youtube: "",
+        youtube: "https://www.youtube.com/embed/tL2qV5yi4AE",
     },
     {
         title: "BIDBoston",
         date: "April 2, 2022",
         host: "Mustard Seed",
         school: "BU",
-        youtube: "",
+        youtube: "https://www.youtube.com/embed/77gHB79XaTA",
     },
     {
         title: "BIDBoston",
@@ -35,7 +35,7 @@ const PastEvents = [
         date: "April 7, 2018",
         host: "Against the Current",
         school: "Boston College",
-        youtube: "",
+        youtube: "https://www.youtube.com/embed/41_C4Z9c0Qo",
     },
     {
         title: "BIDBoston",
