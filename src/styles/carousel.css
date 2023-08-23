@@ -75,7 +75,7 @@
         }
 
         .carousel .forward:hover:before, .carousel .backward:hover:before {
-            background-color: rgba(239, 131, 118, 0.75);
+            background-color: var(--color-primary)
         }
 
     .carousel .forward {

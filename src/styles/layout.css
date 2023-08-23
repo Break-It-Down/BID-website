@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:wght@100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
 :root {
   --border-radius: 4px;
-  --color-text: #333;
-  --color-primary: #7026b9;
-  --color-code-bg: #fff4db;
+  --color-text: #242F6B;
+  --color-primary: #ff5e69;
+  --color-code-bg: #FFF8F1;
   --color-code: #8a6534;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-sans: "Raleway";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   --font-lg: 18px;
@@ -24,6 +26,12 @@
   --size-content: 54rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
+
+  --purple-bg: #D7DAE9;
+
+  --light-bg: #FEE1D4;
+  --lighter-bg: #FFF8F1;
+  --body-text: #242F6B;
 }
 html {
   -webkit-text-size-adjust: 100%;
