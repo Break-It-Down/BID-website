@@ -1,4 +1,4 @@
-@import url('theme.css');
+@import url('layout.css');
 
 .list {
     display: grid;
@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  background: #f0f4f4;
+  background: #f4f1f0;
   color: #5b5b5b;
   font-size: 15pt;
   line-height: 1.85em;

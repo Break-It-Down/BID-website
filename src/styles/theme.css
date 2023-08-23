@@ -1,0 +1,19 @@
+/* @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Libre-Franklin");
+
+body {
+  font-family: 'Quicksand'!important;
+}
+
+h1, h2 {
+  font-family: 'Raleway';
+  font-weight: 300!important;
+}
+
+:root {
+  --light-bg: #FEE1D4;
+  --lighter-bg: #FFF8F1;
+  --body-text: #242F6B;
+} */
+ 
