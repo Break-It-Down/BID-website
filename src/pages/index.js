@@ -1,7 +1,6 @@
 import * as React from "react";
 import Seo from "../components/seo";
-// import * as styles from "../components/index.module.css"
-import "../styles/index.module.css";
+import "../styles/theme.css";
 import Header from "../components/header";
 import Banner from "../components/banner";
 import Carousel from "../components/carousel";

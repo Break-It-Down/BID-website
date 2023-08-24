@@ -80,7 +80,7 @@ const Groups = [
         logo: "",
         groupPhoto: "",
         media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: true,
+        active: false,
         host: false
     },
     {
@@ -100,7 +100,7 @@ const Groups = [
         logo: "",
         groupPhoto: "",
         media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: true,
+        active: false,
         host: false
     },
     {
@@ -190,7 +190,7 @@ const Groups = [
         logo: "",
         groupPhoto: "",
         media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: true,
+        active: false,
         host: false
     },
     {

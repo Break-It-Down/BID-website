@@ -11,7 +11,7 @@ const MeetGroups = () => (
         share the gospel and good news of Jesus Christ through this niche art of Christian a cappella.
         Check out the hosts and participants for this year's Break it Down!
         </h3>   
-        <a href="/groups"><Button class="banner-button">Groups</Button></a>    
+        <a href="/groups"><Button class="button">Groups</Button></a>    
     </div>
 )
 

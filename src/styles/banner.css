@@ -15,27 +15,6 @@
         background-color: var(--lighter-bg);
     }
 
-.banner-button {
-    background-color: var(--light-bg);
-    color: var(--body-text);
-    border: none;
-    font-size: 15px;
-    border-radius: 20px;
-    width: 180px;
-    height: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Quicksand';
-}
-
-.banner-button:hover {
-    cursor: pointer;
-    background-color: var(--color-primary);
-    color: #fff;
-    transition-duration: .5s;
-}
-
 .h2-banner {
     font-size: 2em;
 }
