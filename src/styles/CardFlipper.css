@@ -34,78 +34,12 @@
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: white;
+    z-index: 10;
   }
   
   /* Style the back side */
   .flip-card-back {
     background-color: white;
     transform: rotateY(180deg);
-  }
-
-/**
-  * ReactCardFlipper
-  * Author: Eric Stout, https://factor1studios.com
-**/
-
-.rcf-container {
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    width: auto;
-    height: auto;
-    transition: transform 500ms cubic-bezier(.18,.45,.11,.91);
-  }
-  
-  .rcf-front, .rcf-back {
-    width: auto;
-    height: auto;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-  }
-  
-  .rcf-back {
-    transform: rotateY(180deg);
-  } */
-  
-  .rcf-flipper {
-    transition: 0.6s;
-    background-color: white;
-    transform-style: preserve-3d;
-    position: relative;
-  }
-  
-  .rcf-active .rcf-flipper {
-    transform: rotateY(180deg);
-  }
-  
-  
-  /* IE Support for 11-10 */
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .rcf-active .rcf-back {
-      transform: rotateY(0deg);
-    }
-  
-    .rcf-active .rcf-flipper {
-      transform: rotateY(0deg);
-    }
-  
-    .rcf-active .rcf-front {
-      transform: rotateY(180deg);
-    }
-  
-    .rcf-active .rcf-back {
-      transform: rotateY(0deg);
-    }
-  
-    .rcf-front {
-      transform: rotateY(0deg);
-    }
-  
-    .rcf-back {
-      transform: rotateY(-180deg);
-    }
+    z-index: 0;
   }
