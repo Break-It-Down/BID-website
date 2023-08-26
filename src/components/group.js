@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import ReactCardFlipper from "react-card-flipper";
+// import ReactCardFlipper from "react-card-flipper";
+import ReactCardFlipper from "../components/CardFlipper";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faFacebookF,
@@ -9,11 +10,12 @@ import {
   } from '@fortawesome/free-brands-svg-icons'
   import {faEnvelope, faGlobe} from '@fortawesome/free-solid-svg-icons'
 import "../styles/group.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Group = ({group}) => (
     group.host ?
         <div class="host-card-flipper">
-            <ReactCardFlipper width="300px" height="300px" behavior="hover">
+            <ReactCardFlipper width="300px" height="300px">
                 <div class="host-card">
                     { group.logo != "" ? group.logo : <div class="group-logo"></div>}
                     <h4 class="h4-banner">{group.school}<br/>{group.group}</h4>
@@ -32,7 +34,7 @@ const Group = ({group}) => (
         </div>
     :
         <div class="card-flipper">
-            <ReactCardFlipper width="200px" height="200px" behavior="hover">
+            <ReactCardFlipper width="200px" height="200px">
                 <div class="card">
                     { group.logo != "" ? group.logo : <div class="group-logo"></div>}
                     <h4 class="h4-banner">{group.school}<br/>{group.group}</h4>

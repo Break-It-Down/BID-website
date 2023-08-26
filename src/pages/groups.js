@@ -23,6 +23,7 @@ for (var i = 0; i < grps.length; i += 4) {
 }
 
 const GroupsPage = () => (
+  // <Group group={grps.at(2)} />
   <Layout>
     <Hosts/>
     <div class="wrapper">
