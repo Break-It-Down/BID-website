@@ -16,7 +16,7 @@ for (var i = 0; i < PastEvents.length; i ++) {
                 {curr.youtube ? 
                         <iframe className="responsive-iframe" src={curr.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     :
-                    <StaticImage src="../images/pic01.jpg" className="responsive-iframe"/>
+                    <div className="responsive-iframe"><StaticImage src="../images/pic01.jpg"/></div>
                 }
             </div>
             <header>
