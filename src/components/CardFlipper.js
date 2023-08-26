@@ -6,10 +6,7 @@
  **/
 
 import React, { Component, useState } from "react";
-import ReactCardFlip from "react-card-flip";
 import "../styles/CardFlipper.css";
-import { StaticImage } from "gatsby-plugin-image";
-import classNames from "classnames";
 
 class ReactCardFlipper extends Component {
   constructor(props) {
