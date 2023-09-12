@@ -67,12 +67,12 @@
                 display: none;
             } 
             
-            /* #navPanel, #titleBar {
-                display: none;
-            } */
+.navPanel {
+    display: none;
+}
 
 @media screen and (max-width: 736px) {
-    #page-wrapper {
+    /* #page-wrapper {
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
@@ -180,7 +180,6 @@
             top: 0;
             width: 100%;
             height: 100%;
-            /* background: url("images/overlay.png"); */
             background-size: 128px 128px;
         }
 
@@ -256,6 +255,31 @@
 
     #nav {
         display: none;
+    } */
+
+    /* TRYING NEW CSS NAVBAR */
+    #nav {
+        display: none;
     }
 
+    .navPanel {
+        display: block;
+    }
+
+    .navPanel a.icon {
+        background: transparent;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: white;
+    }
+
+    /* #nav #myLinks {
+        display: none;
+    }
+
+    #nav a:hover {
+        background-color: #ddd;
+        color: black;
+    } */
 }

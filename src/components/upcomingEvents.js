@@ -16,7 +16,7 @@ const UpcomingEvents = () => (
                 <h3>
                 Host: UCLA Road to Damascus <br/>
                 Location: Los Angeles, California <br/>
-                Date: TBD
+                Date: April 13, 2023
                 </h3>
             </div>
             <div class="col-4 col-12-mobile special">

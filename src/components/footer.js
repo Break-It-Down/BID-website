@@ -21,7 +21,7 @@ const Footer = () => (
           <ul class="icons">
             <li>
               <a href="mailto:breakitdown.uni@gmail.com" class="icon brands">
-                <FontAwesomeIcon icon={faEnvelope} size="1x" />
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
             <li>
@@ -29,7 +29,7 @@ const Footer = () => (
                 href="https://www.tiktok.com/@breakitdownorg"
                 class="icon brands"
               >
-                <FontAwesomeIcon icon={faTiktok} size="1x" />
+                <FontAwesomeIcon icon={faTiktok} />
               </a>
             </li>
             <li>
@@ -37,12 +37,12 @@ const Footer = () => (
                 href="https://www.instagram.com/breakitdownorg/"
                 class="icon brands"
               >
-                <FontAwesomeIcon icon={faInstagram} size="1x" />
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
             </li>
             <li>
               <a href="https://youtube.com/@breakitdownorg" class="icon brands">
-                <FontAwesomeIcon icon={faYoutube} size="1x" />
+                <FontAwesomeIcon icon={faYoutube} />
               </a>
             </li>
           </ul>
