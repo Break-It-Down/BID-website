@@ -15,20 +15,17 @@ const grps = Groups.filter((group) => !group.host && group.active);
 const groupRows = [];
 for (var i = 0; i < grps.length; i += 4) {
   let rowGroups = grps.slice(i, i+4);
-  groupRows.push(
-    <div className='row aln-center' style={{margin: "0px auto 20px auto"}}>
-      {rowGroups.map(group => <Group group={group} />)}
-    </div>
-  );
+  groupRows.push(rowGroups.map(group => <Group group={group} />));
 }
 
 const GroupsPage = () => (
-  // <Group group={grps.at(2)} />
   <Layout>
     <Hosts/>
     <div class="wrapper">
       <h2><strong>The Groups</strong></h2>
-      {groupRows}
+      <div className='row aln-center' style={{margin: "0px auto 20px auto"}}>
+        {groupRows}
+      </div>
     </div>
   </Layout>
 )
