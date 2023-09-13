@@ -49,6 +49,10 @@
     margin: 15px auto 15px auto;
 }
 
+.group-logo:empty {
+    background-color: var(--color-code-bg);
+}
+
 .host-logo {
     width: 200px;
     height: 200px;
@@ -63,6 +67,10 @@
     width: 100%;
     height: 185px;
     border-radius: 10px;
+}
+
+.group-photo:empty {
+    background-color: var(--color-code-bg);
 }
 
 .host-photo {

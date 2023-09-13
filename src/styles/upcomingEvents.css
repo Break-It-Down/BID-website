@@ -5,6 +5,7 @@
     text-align: center;
     padding: 3em 3em 3em 3em;
     margin: 1em 0 1em 0;
+    justify-content: center;
 }
 
 .container {
@@ -16,14 +17,9 @@
 .image {
     position: relative;
     display: inline-block;
-    border: 0;
-    outline: 0;
+    width: 100%;
+    margin: 1em 0 0 0;
 }
-    .image.featured {
-        display: block;
-        width: 100%;
-        margin: 1em 0 0 0;
-    }
 
 .h2-banner {
     font-size: 2em;
