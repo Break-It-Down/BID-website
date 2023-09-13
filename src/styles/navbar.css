@@ -58,7 +58,6 @@
     .menu-icon {
       display: block;
       position: absolute;
-      /* color: white; */
       right: 5px;
       cursor: pointer;
       z-index: 10;
@@ -69,7 +68,7 @@
       position: absolute;
       right: -20px;
       top: -10px;
-      background-color: #f4f1f0;
+      background-color: var(--purple-bg);
       width: 0px;
       height: calc(100vh);
       transition: all 0.3s ease-in;
@@ -103,7 +102,7 @@
     .nav-elements ul a {
         right: 25px;
         position: absolute;
-        color: #242F6B;
+        color: var(--body-text);
       }
   }
 
