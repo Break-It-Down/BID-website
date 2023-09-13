@@ -4,34 +4,74 @@ import "../styles/navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+// import { NavLink } from 'react';
+// import { NavLink } from 'react-router-dom'
 
-const Navbar = () => (
-    <div>    
-        <nav id="nav">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/groups">Groups</a></li>
-                {/* Add once pages are created */}
-                {/* <li><a href="/archive">Archive</a></li> */}
-                {/* <li><a href="/donate">Donate</a></li> */}
-            </ul>
-        </nav>
-        <div className="navPanel">
-            <a href="javascript:void(0);" class="icon" onclick={myFunction}>
-                <FontAwesomeIcon icon={faBars} />
-            </a>
-        </div>
-    </div>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+// function handleShowNavbar() {
+//     var x = document.getElementById("nav-elements");
+//     if (x.style.display === "block") {
+//       x.style.display = "none";
+//     } else {
+//       x.style.display = "block";
+//     }
+//   }
+
+class Navbar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { showNavbar: false };
+      }
+
+    handleShowNavbar = () => {
+        this.setState({showNavbar: !this.state.showNavbar})
+        var x = document.getElementById("menu-icon")
+        if (x.style.color === "white") {
+            x.style.color = "#242F6B"
+        } else {
+            x.style.color = "white"
+        }
+    }
+
+    render() {
+        return (
+            <nav className="navbar">
+                <div className="logo">
+
+                </div>
+                <div id="menu-icon" className="menu-icon" onClick={this.handleShowNavbar} style={{color: "white"}}>
+                    <FontAwesomeIcon icon={faBars} />
+                </div>
+                <div className={`nav-elements  ${this.state.showNavbar && 'active'}`}>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/groups">Groups</a></li>
+                </ul>
+                </div>
+            </nav>
+        );
+    }
+}
+    
+
+    // <div>    
+    //     <nav id="nav">
+    //         <ul>
+                // <li><a href="/">Home</a></li>
+                // <li><a href="/about">About</a></li>
+                // <li><a href="/groups">Groups</a></li>
+    //             {/* Add once pages are created */}
+    //             {/* <li><a href="/archive">Archive</a></li> */}
+    //             {/* <li><a href="/donate">Donate</a></li> */}
+    //         </ul>
+    //     </nav>
+    //     <div className="navPanel">
+    //         <a href="javascript:void(0);" class="icon" onclick={myFunction}>
+    //             <FontAwesomeIcon icon={faBars} />
+    //         </a>
+    //     </div>
+    // </div>
 
     // <nav id="nav">
     //     <ul>
@@ -43,6 +83,5 @@ const Navbar = () => (
     //         {/* <li><a href="/donate">Donate</a></li> */}
     //     </ul>
     // </nav>
-)
 
-export default Navbar
+export default Navbar;
