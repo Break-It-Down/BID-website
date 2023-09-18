@@ -47,11 +47,11 @@ const Groups = [
         group: "Jubilation!",
         school: "Columbia",
         location: "New York City, New York",
-        logo: <StaticImage src='../images/logos/Columbia.jpg' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Columbia.jpg' class="group-photo"/>,
+        logo: <StaticImage src='../images/logos/Columbia.jpg' class="host-logo"/>,
+        groupPhoto: <StaticImage src='../images/groups/Columbia.jpg' class="host-photo"/>,
         media: {email: "jubilationcu@gmail.com", website: "https://www.jube.org/", facebook: "https://www.facebook.com/jubilationCU", instagram: "https://www.instagram.com/jubilationcu/", tiktok: ""},
         active: true,
-        host: false
+        host: true
     },
     {
         group: "Measureless",

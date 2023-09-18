@@ -9,9 +9,14 @@ const grps = Groups.filter((group) => group.host && group.active);
 const Hosts = () => (
     <div id="hosts" class="wrapper">
         <h2><strong>2023 Hosts</strong></h2>
-        <Group group={grps.at(0)} />
-        {/* Add below if second host */}
-        {/* <Group group={grps.at(1)} /> */}
+        <div className='row aln-center' style={{margin: "0px 20px 40px 20px"}}>
+            <div class="col-12-mobile special">
+                <Group group={grps.at(0)} />
+            </div>
+            <div class="col-12-mobile special">
+                <Group group={grps.at(1)} />
+            </div>
+      </div>
     </div>
 )
 

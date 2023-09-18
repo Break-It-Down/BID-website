@@ -13,12 +13,12 @@ const UpcomingEvents = () => (
                 To gather as kindred spirits and be empowered to disperse and thrive as co-laborers with Christ.
                 </h3>
             </div>
-            <article class="col-4 col-12-mobile special">
+            <div class="col-4 col-12-mobile special">
                 <h2 class="h2-banner">Vision</h2>
                 <h3>
                 To glorify God as one voice and stir each other up in love to spread the Gospel of Jesus Christ across our local communities.
                 </h3>
-            </article>
+            </div>
         </div>
     </div>
 )
