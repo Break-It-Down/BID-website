@@ -1733,7 +1733,7 @@ button:hover {
           }
 
               .row > * {
-                  padding: 20px 0 0 20px;
+                  padding: 10px 0 0 5px;
               }
 
               .row.gtr-uniform {
@@ -1777,5 +1777,19 @@ button:hover {
                   .row.gtr-200.gtr-uniform > * {
                       padding-top: 40px;
                   }
+        
+            .row.gtr-250 {
+                margin-top: -80px;
+                margin-left: -80px;
+                padding: 0px;
+            }
+
+                .row.gtr-250.gtr-uniform {
+                    margin-top: -80px;
+                }
+
+                    .row.gtr-250.gtr-uniform > * {
+                        padding-top: 80px;
+                    }
 
   } 

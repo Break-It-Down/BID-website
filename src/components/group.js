@@ -17,11 +17,11 @@ const Group = ({group}) => (
         <div class="host-card-flipper">
             <ReactCardFlipper width="300px" height="300px">
                 <div class="host-card">
-                    { group.logo != "" ? group.logo : <div class="group-logo"></div>}
+                    { group.logo != "" ? group.logo : <div class="host-logo"></div>}
                     <h4 class="h4-banner">{group.school}<br/>{group.group}</h4>
                 </div>
                 <div class="host-card"> 
-                    { group.groupPhoto != "" ? group.groupPhoto : <div class="group-photo"></div>}
+                    { group.groupPhoto != "" ? group.groupPhoto : <div class="host-photo"></div>}
                     <div class="icons">
                         {group.media.email ? <a href={"mailto:" + group.media.email} class="icon brands"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a> : null }
                         {group.media.website ? <a href={group.media.website} class="icon brands"><FontAwesomeIcon icon={faGlobe} size="1x" /></a> : null }

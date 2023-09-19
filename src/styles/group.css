@@ -43,6 +43,7 @@
     width: 125px;
     height: 125px;
     border-radius: 50%;
+    transform: translateZ(0);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -57,10 +58,11 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    transform: translateZ(0);
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 10px auto 0px auto;
+    margin: 10px auto 10px auto;
 }
 
 .group-photo {
