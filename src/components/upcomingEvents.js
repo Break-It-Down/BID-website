@@ -25,7 +25,7 @@ const UpcomingEvents = () => (
                 <h3>
                 Columbia Jubilation! <br/> -- <br/>
                 New York, New York <br/>
-                April 4, 2023
+                April 6, 2023
                 </h3>
             </div>
         </div>
