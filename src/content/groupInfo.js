@@ -169,7 +169,7 @@ const Groups = [
         location: "Berkeley, California",
         logo: <StaticImage src='../images/logos/UC Berkeley.jpg' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/UC Berkeley.jpeg' class="group-photo"/>,
-        media: {email: "fcsberkeley@gmail.com", website: "forchristssake.berkeley.edu ", facebook: "https://www.facebook.com/fcsacappella", instagram: "https://www.instagram.com/fcsacappella/", tiktok: "https://www.tiktok.com/@fcsacappella"},
+        media: {email: "fcsberkeley@gmail.com", website: "https://forchristssake.berkeley.edu", facebook: "https://www.facebook.com/fcsacappella", instagram: "https://www.instagram.com/fcsacappella/", tiktok: "https://www.tiktok.com/@fcsacappella"},
         active: true,
         host: false
     },
@@ -199,7 +199,7 @@ const Groups = [
         location: "Philadelphia, Pennsylvania",
         logo: <StaticImage src='../images/logos/UPenn.png' class="group-logo"/>,
         groupPhoto: "",
-        media: {email: "fullmeasure.penn@gmail.com", website: "full-measure.org", facebook: "https://www.facebook.com/FullMeasure", instagram: "https://www.instagram.com/upenn.fullmeasure/", tiktok: "https://www.tiktok.com/@upennfullmeasure"},
+        media: {email: "fullmeasure.penn@gmail.com", website: "http://full-measure.org", facebook: "https://www.facebook.com/FullMeasure", instagram: "https://www.instagram.com/upenn.fullmeasure/", tiktok: "https://www.tiktok.com/@upennfullmeasure"},
         active: true,
         host: false
     },
