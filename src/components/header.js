@@ -13,19 +13,13 @@ const Header = ({home}) => (
         </div>
         <Navbar/>
     </div>
-  // <div id="header" style={{height: "100vh", backgroundPosition: "center"}}>
-  //     <div class="inner">
-  //       <h1><strong>break. it. down.</strong></h1>
-  //     </div>
-  //     <Navbar/>
-  // </div>
   :
-  <div id="header">
-      <div class="inner">
-        <h1><strong>break. it. down.</strong></h1>
-      </div>
-      <Navbar/>
-  </div>
+    <div id="header">
+        <div class="inner">
+          <h1><strong>break. it. down.</strong></h1>
+        </div>
+        <Navbar/>
+    </div>
 )
 
 export default Header

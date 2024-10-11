@@ -81,6 +81,10 @@
     border-radius: 10px;
 }
 
+.black-bckgrd {
+    background-color: black;
+}
+
 .h4-banner {
     margin-top: 5px;
     margin-bottom: 2em;

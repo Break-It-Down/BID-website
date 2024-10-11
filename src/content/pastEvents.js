@@ -3,6 +3,18 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const PastEvents = [
     {
+        title: "BIDLosAngeles",
+        date: "April 13, 2024",
+        host: "Road to Damascus",
+        school: "UCLA",
+        youtube: "https://www.youtube.com/embed/3JrCPIQEcHY",
+    },{
+        title: "BIDNewYork",
+        date: "April 6, 2024",
+        host: "Jubilation!",
+        school: "Columbia",
+        youtube: "https://www.youtube.com/embed/P0AzJDO6u64",
+    },{
         title: "BIDBerkeley",
         date: "March 25, 2023",
         host: "For Christ's Sake",

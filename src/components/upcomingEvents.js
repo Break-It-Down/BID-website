@@ -7,25 +7,24 @@ const UpcomingEvents = () => (
     <div class="wrapper">
         <h2><strong>Upcoming Events</strong></h2>
         <h3>Every year, Break it Down is hosted in two cities, one on the west coast and one on the east coast. 
-            This year, it will be hosted in <font color="#ff5e69">Los Angeles, California</font> and <font color="#ff5e69">New York, New York</font>.</h3>
+            This year, it will be hosted in <font color="#ff5e69">Boston, Massachussets</font> and <font color="#ff5e69">Stanford, California</font>.</h3>
         <div class="row aln-center">
             <div class="col-5 col-12-mobile special">
-                {/* Add links for schools once groups is created */}
-                <a href="/groups#hosts" class="image"><StaticImage src="../images/pic08.jpg"/></a>
-                <h2 class="h2-banner"><a href="/groups">BiDLA</a></h2>
+                <a href="/groups#hosts" class="image"><StaticImage src="../images/groups/MIT.jpg" class="hosts-photo"/></a>
+                <h2 class="h2-banner"><a href="/groups">BiDB</a></h2>
                 <h3>
-                UCLA Road to Damascus <br/> -- <br/>
-                Los Angeles, California <br/>
-                April 13, 2023
+                MIT Cross Products <br/> -- <br/>
+                Boston, Massachussets <br/>
+                April 5, 2024
                 </h3>
             </div>
             <div class="col-5 col-12-mobile special">
-                <a href="/groups#hosts" class="image"><StaticImage src="../images/pic07.jpg"/></a>
-                <h2 class="h2-banner"><a href="/groups">BiDNY</a></h2>
+                <a href="/groups#hosts" class="image"><StaticImage src='../images/groups/Testimony.jpg' class="hosts-photo"/></a>
+                <h2 class="h2-banner"><a href="/groups">BiDS</a></h2>
                 <h3>
-                Columbia Jubilation! <br/> -- <br/>
-                New York, New York <br/>
-                April 6, 2023
+                Stanford Testimony <br/> -- <br/>
+                Stanford, California <br/>
+                April 12, 2024
                 </h3>
             </div>
         </div>

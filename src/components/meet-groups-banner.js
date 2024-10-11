@@ -4,13 +4,13 @@ import { Button } from "@mui/material"
 import "../styles/banner.css"
 import { StaticImage } from "gatsby-plugin-image"
 import ImageSliderAuto from '../components/ImageSliderAuto';
-import { MeetGroupsImages } from "../content/meetGroupsImages"
+import { MeetGroupsImages } from "../content/slideshowImages"
 
 
 const MeetGroups = () => (
     <div id="banner">
         <h2 class="h2-banner">Meet the Groups</h2>
-        <ImageSliderAuto ImageData={MeetGroupsImages} SlideInterValTime={10000}/>
+        <ImageSliderAuto ImageData={MeetGroupsImages} SlideInterValTime={5000}/>
         {/* <StaticImage src="../images/meetGroups/meetGroupsImage.jpg" class="banner-image"/> */}
         <h3>
         Comprised of 25 groups from all over the country, Break it Down strives to 

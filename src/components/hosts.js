@@ -8,7 +8,7 @@ const grps = Groups.filter((group) => group.host && group.active);
 
 const Hosts = () => (
     <div id="hosts" class="wrapper">
-        <h2><strong>2023 Hosts</strong></h2>
+        <h2><strong>2025 Hosts</strong></h2>
         <div className='row aln-center' style={{margin: "0px auto 40px auto"}}>
             <div class="gtr-250">
                 <Group group={grps.at(0)} />

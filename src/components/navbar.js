@@ -53,35 +53,5 @@ class Navbar extends React.Component {
         );
     }
 }
-    
-
-    // <div>    
-    //     <nav id="nav">
-    //         <ul>
-                // <li><a href="/">Home</a></li>
-                // <li><a href="/about">About</a></li>
-                // <li><a href="/groups">Groups</a></li>
-    //             {/* Add once pages are created */}
-    //             {/* <li><a href="/archive">Archive</a></li> */}
-    //             {/* <li><a href="/donate">Donate</a></li> */}
-    //         </ul>
-    //     </nav>
-    //     <div className="navPanel">
-    //         <a href="javascript:void(0);" class="icon" onclick={myFunction}>
-    //             <FontAwesomeIcon icon={faBars} />
-    //         </a>
-    //     </div>
-    // </div>
-
-    // <nav id="nav">
-    //     <ul>
-    //         <li><a href="/">Home</a></li>
-    //         <li><a href="/about">About</a></li>
-    //         <li><a href="/groups">Groups</a></li>
-    //         {/* Add once pages are created */}
-    //         {/* <li><a href="/archive">Archive</a></li> */}
-    //         {/* <li><a href="/donate">Donate</a></li> */}
-    //     </ul>
-    // </nav>
 
 export default Navbar;

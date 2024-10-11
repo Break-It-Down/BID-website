@@ -8,14 +8,9 @@ const ImageSliderAuto = (props) => {
     }
 
     const [sliderProperty, setSliderProperty] = useState(SliderProperty);
-
     const { ImageSrc } = sliderProperty;
-
     const [count, setCount] = useState(0);
-
     const [animationCls, setAnimationCls] = useState('displayBlock fade');
-
-
 
     const NextClick = () => {
 
@@ -35,23 +30,17 @@ const ImageSliderAuto = (props) => {
     };
 
     useEffect(() => {
-
         setSliderProperty((previous) => ({ ...previous, ImageSrc: props.ImageData[count].ImageSrc }));
-
     }, [count]);
 
 
 
     useEffect(() => {
-
          const interval=  setInterval(() => {
-
             NextClick();
-
         }, props.SlideInterValTime);
 
         return () => clearInterval(interval);
-
     }, [count]);
 
 
@@ -59,12 +48,8 @@ const ImageSliderAuto = (props) => {
     return (
         <>
             <div className='slideshow-container '>
-
-
                 <div className={animationCls}>
                     {ImageSrc}
-                {/* <StaticImage src={ImageSrc} class='imageStyle' /> */}
-                    {/* <img src={ImageSrc} className='imageStyle' alt="Img" /> */}
                 </div>
             </div>
 
