@@ -21,8 +21,8 @@
         font-size: 2em;
         line-height: 2em;
         position: absolute;
-        top: 40vh;
-        left: 8vw;
+        top: 42.5vh;
+        left: 30px;
     }
 
         #header h1 a {
@@ -105,7 +105,7 @@ body.homepage.is-preload #header:after {
             font-size: 1em;
         }
 
-        #header h1 {
+        #header h1 strong {
             font-size: 1.25em;
         }
 
@@ -127,4 +127,10 @@ body.homepage.is-preload #header:after {
         body.homepage #header h1 {
             font-size: 2.5em;
         }
+}
+
+@media screen and (max-width: 600px) {
+    #header h1 strong {
+        left: 10vw;
+    }
 }
