@@ -13,7 +13,7 @@ const Header = ({home}) => {
             <Slide arrows={false}>
             {HeaderImages.map((slideImage, index)=> (
                 <div key={index}>
-                  <div id="homeDiv" style={{'backgroundImage': `url("${slideImage}")`}}/>
+                  <div id="homeDiv" style={{'backgroundImage': `url(${slideImage})`}}/>
                 </div>
               ))} 
             </Slide>
@@ -29,7 +29,7 @@ const Header = ({home}) => {
             <Slide arrows={false}>
             {HeaderImages.map((slideImage, index)=> (
                 <div key={index}>
-                  <div id="pageDiv" style={{'backgroundImage': `url("${slideImage}")`}}/>
+                  <div id="pageDiv" style={{'backgroundImage': `url(${slideImage})`}}/>
                 </div>
               ))} 
             </Slide>
