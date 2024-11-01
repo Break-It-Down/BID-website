@@ -24,7 +24,8 @@
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.4",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "react-slideshow-image": "^4.3.2"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

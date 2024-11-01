@@ -63,16 +63,16 @@ const Groups = [
         active: true,
         host: false
     },
-    {
-        group: "Something Borrowed Something Blue",
-        school: "Duke",
-        location: "Durham, North Carolina",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: true,
-        host: false
-    },
+    // {
+    //     group: "Something Borrowed Something Blue",
+    //     school: "Duke",
+    //     location: "Durham, North Carolina",
+    //     logo: "",
+    //     groupPhoto: "",
+    //     media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
+    //     active: true,
+    //     host: false
+    // },
     {
         group: "Under Construction",
         school: "Harvard",
@@ -203,16 +203,16 @@ const Groups = [
         active: true,
         host: false
     },
-    {
-        group: "Mosaic",
-        school: "University of Pittsburgh",
-        location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/UPitts.png' class="group-logo"/>,
-        groupPhoto: "",
-        media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: true,
-        host: false
-    },
+    // {
+    //     group: "Mosaic",
+    //     school: "University of Pittsburgh",
+    //     location: "Pittsburgh, Pennsylvania",
+    //     logo: <StaticImage src='../images/logos/UPitts.png' class="group-logo"/>,
+    //     groupPhoto: "",
+    //     media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
+    //     active: true,
+    //     host: false
+    // },
     {
         group: "Christian Hoos Exalt",
         school: "University of Virginia",
