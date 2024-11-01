@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `Break It Down`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: ``,
+    author: `@breakitdownorg`,
+    siteUrl: `https://breakitdownorg.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/public/images`,
       },
     },
     `gatsby-transformer-sharp`,
