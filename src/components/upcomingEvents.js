@@ -15,7 +15,7 @@ const UpcomingEvents = () => (
                 <h3>
                 MIT Cross Products <br/> -- <br/>
                 Boston, Massachussets <br/>
-                April 5, 2024
+                April 5, 2025
                 </h3>
             </div>
             <div class="col-5 col-12-mobile special">
@@ -24,7 +24,7 @@ const UpcomingEvents = () => (
                 <h3>
                 Stanford Testimony <br/> -- <br/>
                 Stanford, California <br/>
-                April 12, 2024
+                April 12, 2025
                 </h3>
             </div>
         </div>
