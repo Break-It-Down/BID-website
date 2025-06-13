@@ -7,14 +7,14 @@ const PastEvents = [
         date: "April 12, 2025",
         host: "Testimony",
         school: "Stanford",
-        youtube: "https://www.youtube.com/watch?v=vZ7IIossRfI",
+        youtube: "https://www.youtube.com/embed?v=vZ7IIossRfI",
     },
     {
         title: "BIDBoston",
         date: "April 5, 2025",
         host: "Cross Products",
         school: "MIT",
-        youtube: "https://www.youtube.com/watch?v=Ihvcp8xR7gE",
+        youtube: "https://www.youtube.com/embed?v=Ihvcp8xR7gE",
     },
     {
         title: "BIDLosAngeles",
