@@ -6,7 +6,7 @@ const Groups = [
     {
         group: "Terras Irradient",
         school: "Amherst",
-        location: "Amherst, Massachussets",
+        location: "Amherst, Massachusetts",
         logo: <StaticImage src='../images/logos/Amherst.jpg' class="group-logo"/>,
         groupPhoto: "",
         media: {email: "tirradient@amherst.edu", website: "", facebook: "", instagram: "", tiktok: ""},
@@ -16,7 +16,7 @@ const Groups = [
     {
         group: "Against the Current",
         school: "Boston College",
-        location: "Boston, Massachussets",
+        location: "Boston, Massachusetts",
         logo: <StaticImage src='../images/logos/Boston College.JPG' class="group-logo"/>,
         groupPhoto: "",
         media: {email: "atcurrent@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
@@ -26,7 +26,7 @@ const Groups = [
     {
         group: "Mustard Seed",
         school: "Boston University",
-        location: "Boston, Massachussets",
+        location: "Boston, Massachusetts",
         logo: <StaticImage src='../images/logos/BU.png' class="group-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/BU.jpg' class="group-photo"/>,
         media: {email: "bumseed@gmail.com", website: "https://www.bumustardseed.com/", facebook: "https://www.facebook.com/BUMustardSeedOfficial/", instagram: "https://www.instagram.com/bumustardseed/", tiktok: ""},
@@ -76,7 +76,7 @@ const Groups = [
     {
         group: "Under Construction",
         school: "Harvard",
-        location: "Cambridge, Massachussets",
+        location: "Cambridge, Massachusetts",
         logo: "",
         groupPhoto: "",
         media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
@@ -106,7 +106,7 @@ const Groups = [
     {
         group: "Cross Products",
         school: "MIT",
-        location: "Cambridge, Masschussets",
+        location: "Cambridge, Massachusetts",
         logo: <StaticImage src='../images/logos/MIT.png' class="host-logo"/>,
         groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="host-photo"/>,
         media: {email: "xprod-exec@mit.edu", website: "https://xprod.mit.edu/", facebook: "https://www.facebook.com/crossproducts", instagram: "https://www.instagram.com/mit.crossproducts/", tiktok: ""},
@@ -236,7 +236,7 @@ const Groups = [
     {
         group: "Awaken the Dawn",
         school: "Wellesley",
-        location: "Wellesley, Massachussets",
+        location: "Wellesley, Massachusetts",
         logo: <StaticImage src='../images/logos/Wellesley.jpg' class="group-logo"/>,
         groupPhoto: "",
         media: {email: "awakenthedawn_wcso@wellesley.edu", website: "", facebook: "", instagram: "", tiktok: ""},
