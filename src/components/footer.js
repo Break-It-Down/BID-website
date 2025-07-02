@@ -49,7 +49,7 @@ const Footer = () => (
         </section>
 
         <div class="copyright">
-          <a href="#">&copy; Break it Down 2023</a>
+          <a href="#">&copy; Break it Down {new Date().getFullYear()}</a>
         </div>
       </div>
     </div>
