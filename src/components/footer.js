@@ -6,6 +6,7 @@ import {
   faYoutube,
   faSpotify,
   faTiktok,
+  faLink,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/footer.css";
@@ -43,6 +44,16 @@ const Footer = () => (
             <li>
               <a href="https://youtube.com/@breakitdownorg" class="icon brands">
                 <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/user/31bujkc5eva2iqieamcmi5wfuw4i" class="icon brands">
+                <FontAwesomeIcon icon={faSpotify} />
+              </a>
+            </li>
+            <li>
+              <a href="https://linktr.ee/breakitdownorg" class="icon brands">
+                <FontAwesomeIcon icon={faLink} />
               </a>
             </li>
           </ul>
