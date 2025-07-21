@@ -203,16 +203,16 @@ const Groups = [
         active: true,
         host: false
     },
-    // {
-    //     group: "Mosaic",
-    //     school: "University of Pittsburgh",
-    //     location: "Pittsburgh, Pennsylvania",
-    //     logo: <StaticImage src='../images/logos/UPitts.png' class="group-logo"/>,
-    //     groupPhoto: "",
-    //     media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "", tiktok: ""},
-    //     active: true,
-    //     host: false
-    // },
+    {
+        group: "Mosaic",
+        school: "University of Pittsburgh",
+        location: "Pittsburgh, Pennsylvania",
+        logo: <StaticImage src='../images/logos/UPitt.png' class="group-logo"/>,
+        groupPhoto: "",
+        media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/mosaic_acappella", tiktok: ""},
+        active: true,
+        host: false
+    },
     {
         group: "Christian Hoos Exalt",
         school: "University of Virginia",
