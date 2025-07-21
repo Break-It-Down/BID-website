@@ -207,7 +207,7 @@ const Groups = [
         group: "Mosaic",
         school: "University of Pittsburgh",
         location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/UPitt.png' class="group-logo"/>,
+        logo: <StaticImage src='../images/logos/UPitt.jpeg' class="group-logo"/>,
         groupPhoto: "",
         media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/mosaic_acappella", tiktok: ""},
         active: true,
