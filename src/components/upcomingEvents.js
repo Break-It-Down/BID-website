@@ -10,7 +10,7 @@ const UpcomingEvents = () => (
             This year, it will be co-hosted by two groups in <font color="#ff5e69">Pittsburgh</font> for the east coast and <font color="#ff5e69">TBD</font> for the west coast.</h3>
         <div class="row aln-center">
             <div class="col-5 col-12-mobile special">
-                <a href="/groups#hosts" class="image"><StaticImage src='../images/groups/UPitt.jpeg' class="hosts-photo"/></a>
+                <a href="/groups#hosts" class="image"><StaticImage aspectRatio={16/9} src='../images/groups/UPitt.jpeg' class="hosts-photo"/></a>
                 <h2 class="h2-banner"><a href="/groups">BIDsburgh</a></h2>
                 <h3>
                     UPitt Mosaic <br/> -- <br/>
@@ -19,7 +19,7 @@ const UpcomingEvents = () => (
                 </h3>
             </div>
             <div class="col-5 col-12-mobile special">
-                <a href="/groups#hosts" class="image"><StaticImage src="../images/groups/CMU.JPG" class="hosts-photo"/></a>
+                <a href="/groups#hosts" class="image"><StaticImage aspectRatio={16/9} src="../images/groups/CMU.JPG" class="hosts-photo"/></a>
                 <h2 class="h2-banner"><a href="/groups">BIDsburgh</a></h2>
                 <h3>
                     CMU Joyful Noise <br/> -- <br/>
@@ -28,6 +28,7 @@ const UpcomingEvents = () => (
                 </h3>
             </div>
         </div>
+        <div class="row aln-center">
     </div>
 )
 
