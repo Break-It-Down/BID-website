@@ -17,12 +17,14 @@ const UpcomingEvents = () => (
             </div>
         </div>
         <div class="row aln-center">
-            <h2 class="h2-banner"><a href="/groups">BIDsburgh</a></h2>
-            <h3>
-                UPitt Mosaic + CMU Joyful Noise <br/> -- <br/>
-                Pittsburgh, Pennsylvania <br/>
-                April 11, 2026 (TBD)
-            </h3>
+            <div class="col-5 col-12-mobile special">
+                <h2 class="h2-banner"><a href="/groups">BIDsburgh</a></h2>
+                <h3>
+                    UPitt Mosaic + CMU Joyful Noise <br/> -- <br/>
+                    Pittsburgh, Pennsylvania <br/>
+                    April 11, 2026 (TBD)
+                </h3>
+            </div>
         </div>
     </div>
 )
