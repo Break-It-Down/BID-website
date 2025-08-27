@@ -37,8 +37,8 @@ const Groups = [
         group: "Joyful Noise",
         school: "Carnegie Mellon",
         location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/Carnegie.jpg' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/CMU.JPG' class="group-photo"/>,
+        logo: <StaticImage src='../images/logos/Carnegie.jpg' class="host-logo"/>,
+        groupPhoto: <StaticImage src='../images/groups/CMU.JPG' class="host-photo"/>,
         media: {email: "cmujoyfulnoise@gmail.com", website: "", facebook: "https://www.facebook.com/cmujoyfulnoise", instagram: "https://www.instagram.com/cmujoyfulnoise/", tiktok: ""},
         active: true,
         host: true
@@ -107,8 +107,8 @@ const Groups = [
         group: "Cross Products",
         school: "MIT",
         location: "Cambridge, Massachusetts",
-        logo: <StaticImage src='../images/logos/MIT.png' class="host-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="host-photo"/>,
+        logo: <StaticImage src='../images/logos/MIT.png' class="group-logo"/>,
+        groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="group-photo"/>,
         media: {email: "xprod-exec@mit.edu", website: "https://xprod.mit.edu/", facebook: "https://www.facebook.com/crossproducts", instagram: "https://www.instagram.com/mit.crossproducts/", tiktok: ""},
         active: true,
         host: false
@@ -147,8 +147,8 @@ const Groups = [
         group: "Testimony",
         school: "Stanford",
         location: "Palo Alto, California",
-        logo: <StaticImage src='../images/logos/Stanford.png' class="host-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Testimony.jpg' class="host-photo"/>,
+        logo: <StaticImage src='../images/logos/Stanford.png' class="group-logo"/>,
+        groupPhoto: <StaticImage src='../images/groups/Testimony.jpg' class="group-photo"/>,
         media: {email: "testimony@lists.stanford.edu", website: "https://testimonyacappella.weebly.com/", facebook: "https://www.facebook.com/testimonyacappella/", instagram: "https://www.instagram.com/testimonyacappella/", tiktok: ""},
         active: true,
         host: false
@@ -207,8 +207,8 @@ const Groups = [
         group: "Mosaic",
         school: "University of Pittsburgh",
         location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/UPitt.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/UPitt.jpeg' class="group-photo"/>,
+        logo: <StaticImage src='../images/logos/UPitt.png' class="host-logo"/>,
+        groupPhoto: <StaticImage src='../images/groups/UPitt.jpeg' class="host-photo"/>,
         media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/mosaic_acappella", tiktok: ""},
         active: true,
         host: true
