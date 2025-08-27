@@ -41,7 +41,7 @@ const Groups = [
         groupPhoto: <StaticImage src='../images/groups/CMU.JPG' class="group-photo"/>,
         media: {email: "cmujoyfulnoise@gmail.com", website: "", facebook: "https://www.facebook.com/cmujoyfulnoise", instagram: "https://www.instagram.com/cmujoyfulnoise/", tiktok: ""},
         active: true,
-        host: false
+        host: true
     },
     {
         group: "Jubilation!",
@@ -111,7 +111,7 @@ const Groups = [
         groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="host-photo"/>,
         media: {email: "xprod-exec@mit.edu", website: "https://xprod.mit.edu/", facebook: "https://www.facebook.com/crossproducts", instagram: "https://www.instagram.com/mit.crossproducts/", tiktok: ""},
         active: true,
-        host: true
+        host: false
     },
     {
         group: "Shine",
@@ -151,7 +151,7 @@ const Groups = [
         groupPhoto: <StaticImage src='../images/groups/Testimony.jpg' class="host-photo"/>,
         media: {email: "testimony@lists.stanford.edu", website: "https://testimonyacappella.weebly.com/", facebook: "https://www.facebook.com/testimonyacappella/", instagram: "https://www.instagram.com/testimonyacappella/", tiktok: ""},
         active: true,
-        host: true
+        host: false
     },
     {
         group: "Voice of Hope",
@@ -211,7 +211,7 @@ const Groups = [
         groupPhoto: <StaticImage src='../images/groups/UPitt.jpeg' class="group-photo"/>,
         media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/mosaic_acappella", tiktok: ""},
         active: true,
-        host: false
+        host: true
     },
     {
         group: "Christian Hoos Exalt",
