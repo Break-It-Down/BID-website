@@ -17,15 +17,11 @@ class ReactCardFlipper extends Component {
     return (
       <div className="flip-card">
         <div className="flip-card-inner">
-          <div className="flip-card-front">
-            {this.props.children[0]}
-          </div>
-          <div className="flip-card-back">
-            {this.props.children[1]}
-          </div>
+          <div className="flip-card-front">{this.props.children[0]}</div>
+          <div className="flip-card-back">{this.props.children[1]}</div>
         </div>
       </div>
-      );
+    );
   }
 }
 

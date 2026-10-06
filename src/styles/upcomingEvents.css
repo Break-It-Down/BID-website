@@ -1,76 +1,74 @@
-@import url('layout.css');
+@import url("layout.css");
 
 .wrapper {
-    background: #fff;
-    text-align: center;
-    padding: 3em 3em 3em 3em;
-    margin: 1em 0 1em 0;
-    justify-content: center;
+  background: #fff;
+  text-align: center;
+  padding: 3em 3em 3em 3em;
+  margin: 1em 0 1em 0;
+  justify-content: center;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 1400px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
 }
 
 .image {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    margin: 1em 0 0 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 1em 0 0 0;
 }
 
 .h2-banner {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .group {
-    margin-left: 1em;
-    margin-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .h4-banner {
-    margin-top: 1em;
-    margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .hosts-photo {
-    width: 90%;
-    border-radius: 10px;
-    object-fit: cover;
-    aspect-ratio: 4 / 3;
+  width: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 
 @media screen and (max-width: 1680px) {
-    .container {
-        width: 1200px;
-    }
-
+  .container {
+    width: 1200px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .wrapper {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
+  .wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 }
 
-
 @media screen and (max-width: 736px) {
-    .wrapper {
-        padding: 3em 2em 3em 2em;
-    }
+  .wrapper {
+    padding: 3em 2em 3em 2em;
+  }
 
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 
-    .image.featured {
-        margin: 0 0 0 0;
-    }
+  .image.featured {
+    margin: 0 0 0 0;
+  }
 }
