@@ -64,9 +64,9 @@ const Groups = [
     group: "Joyful Noise",
     school: "Carnegie Mellon",
     location: "Pittsburgh, Pennsylvania",
-    logo: <StaticImage src="../images/logos/Carnegie.jpg" class="host-logo" />,
+    logo: <StaticImage src="../images/logos/Carnegie.jpg" class="group-logo" />,
     groupPhoto: (
-      <StaticImage src="../images/groups/CMU.JPG" class="host-photo" />
+      <StaticImage src="../images/groups/CMU.JPG" class="group-photo" />
     ),
     media: {
       email: "cmujoyfulnoise@gmail.com",
@@ -76,7 +76,7 @@ const Groups = [
       tiktok: "",
     },
     active: true,
-    host: true,
+    host: false,
   },
   {
     group: "Jubilation!",
@@ -280,12 +280,12 @@ const Groups = [
     school: "UC Berkeley",
     location: "Berkeley, California",
     logo: (
-      <StaticImage src="../images/logos/UC Berkeley.jpg" class="group-logo" />
+      <StaticImage src="../images/logos/UC Berkeley.jpg" class="host-logo" />
     ),
     groupPhoto: (
       <StaticImage
-        src="../images/groups/UC Berkeley.jpeg"
-        class="group-photo"
+        src="../images/groups/UC Berkeley.jpg"
+        class="host-photo"
       />
     ),
     media: {
@@ -296,7 +296,7 @@ const Groups = [
       tiktok: "https://www.tiktok.com/@fcsacappella",
     },
     active: true,
-    host: false,
+    host: true,
   },
   {
     group: "Road to Damascus",
@@ -348,9 +348,9 @@ const Groups = [
     group: "Mosaic",
     school: "University of Pittsburgh",
     location: "Pittsburgh, Pennsylvania",
-    logo: <StaticImage src="../images/logos/UPitt.png" class="host-logo" />,
+    logo: <StaticImage src="../images/logos/UPitt.png" class="group-logo" />,
     groupPhoto: (
-      <StaticImage src="../images/groups/UPitt.jpeg" class="host-photo" />
+      <StaticImage src="../images/groups/UPitt.jpeg" class="group-photo" />
     ),
     media: {
       email: "acappellamosaic@gmail.com",
@@ -360,7 +360,7 @@ const Groups = [
       tiktok: "",
     },
     active: true,
-    host: true,
+    host: false,
   },
   {
     group: "Christian Hoos Exalt",
