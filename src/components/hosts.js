@@ -4,20 +4,19 @@ import "../styles/upcomingEvents.css";
 import Groups from "../content/groupInfo";
 import Group from "../components/group";
 
-const grps = Groups.filter((group) => group.host && group.active);
+const hosts = Groups.filter((group) => group.host && group.active);
 
 const Hosts = () => (
-  <div id="hosts" class="wrapper">
+  <div id="hosts" className="wrapper">
     <h2>
-      <strong>2026 Hosts</strong>
+      <strong>2027 {hosts.length == 1 ? "Host" : "Hosts"}</strong>
     </h2>
     <div className="row aln-center" style={{ margin: "0px auto 40px auto" }}>
-      <div class="gtr-250">
-        <Group group={grps.at(0)} />
-      </div>
-      <div class="gtr-250">
-        <Group group={grps.at(1)} />
-      </div>
+      {hosts.map((group, index) => (
+        <div key={group.id || index} className="gtr-250">
+          <Group group={group} />
+        </div>
+      ))}
     </div>
   </div>
 );
