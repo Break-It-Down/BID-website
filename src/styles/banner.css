@@ -1,56 +1,56 @@
-@import url('layout.css');
+@import url("layout.css");
 
 #banner {
-    background: #fff;
-    text-align: center;
-    padding: 3em 3em 3em 3em;
-    margin-bottom: 0;
-    justify-content: center;
+  background: #fff;
+  text-align: center;
+  padding: 3em 3em 3em 3em;
+  margin-bottom: 0;
+  justify-content: center;
 }
 
-    #banner header > p {
-        margin-bottom: 0;
-    }
+#banner header > p {
+  margin-bottom: 0;
+}
 
-    #banner #number-banner {
-        background-color: var(--lighter-bg);
-    }
+#banner #number-banner {
+  background-color: var(--lighter-bg);
+}
 
 .h2-banner {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .numbers {
-    text-align: center;
-    margin: 0em 4em 0em 4em;
+  text-align: center;
+  margin: 0em 4em 0em 4em;
 }
 
 @media screen and (max-width: 1280px) {
-    #banner {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
+  #banner {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
-    .numbers {
-        margin: 0em 2em 0em 2em;
-    }
+  .numbers {
+    margin: 0em 2em 0em 2em;
+  }
 }
 
 @media screen and (max-width: 736px) {
-    #banner {
-        padding: 3em 2em 3em 2em;
-    }
+  #banner {
+    padding: 3em 2em 3em 2em;
+  }
 
-    .numbers {
-        margin: 0em 4em 0em 4em;
-    }
+  .numbers {
+    margin: 0em 4em 0em 4em;
+  }
 }
 
 .row {
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* box-sizing: border-box; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* box-sizing: border-box; */
 }
-    .row.aln-center {
-        justify-content: center;
-    }
+.row.aln-center {
+  justify-content: center;
+}

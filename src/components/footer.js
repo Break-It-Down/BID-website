@@ -47,7 +47,10 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="https://open.spotify.com/user/31bujkc5eva2iqieamcmi5wfuw4i" class="icon brands">
+              <a
+                href="https://open.spotify.com/user/31bujkc5eva2iqieamcmi5wfuw4i"
+                class="icon brands"
+              >
                 <FontAwesomeIcon icon={faSpotify} />
               </a>
             </li>

@@ -1,258 +1,442 @@
-import React from 'react';
+import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/group.css";
 
 const Groups = [
-    {
-        group: "Terras Irradient",
-        school: "Amherst",
-        location: "Amherst, Massachusetts",
-        logo: <StaticImage src='../images/logos/Amherst.jpg' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Amherst.jpg' class="group-photo"/>,
-        media: {email: "tirradient@amherst.edu", website: "", facebook: "", instagram: "https://www.instagram.com/ti_acappella/", tiktok: ""},
-        active: true,
-        host: false
+  {
+    group: "Terras Irradient",
+    school: "Amherst",
+    location: "Amherst, Massachusetts",
+    logo: <StaticImage src="../images/logos/Amherst.jpg" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/Amherst.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "tirradient@amherst.edu",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/ti_acappella/",
+      tiktok: "",
     },
-    {
-        group: "Against the Current",
-        school: "Boston College",
-        location: "Boston, Massachusetts",
-        logo: <StaticImage src='../images/logos/Boston College.JPG' class="group-logo"/>,
-        groupPhoto: "",
-        media: {email: "atcurrent@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/bc_atcurrent/", tiktok: ""},
-        active: true,
-        host: false
-    }, 
-    {
-        group: "Mustard Seed",
-        school: "Boston University",
-        location: "Boston, Massachusetts",
-        logo: <StaticImage src='../images/logos/BU.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/BU.png' class="group-photo"/>,
-        media: {email: "bumseed@gmail.com", website: "https://www.bumustardseed.com/", facebook: "https://www.facebook.com/BUMustardSeedOfficial/", instagram: "https://www.instagram.com/bumustardseed/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Against the Current",
+    school: "Boston College",
+    location: "Boston, Massachusetts",
+    logo: (
+      <StaticImage
+        src="../images/logos/Boston College.JPG"
+        class="group-logo"
+      />
+    ),
+    groupPhoto: "",
+    media: {
+      email: "atcurrent@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/bc_atcurrent/",
+      tiktok: "",
     },
-    {
-        group: "Joyful Noise",
-        school: "Carnegie Mellon",
-        location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/Carnegie.jpg' class="host-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/CMU.JPG' class="host-photo"/>,
-        media: {email: "cmujoyfulnoise@gmail.com", website: "", facebook: "https://www.facebook.com/cmujoyfulnoise", instagram: "https://www.instagram.com/cmujoyfulnoise/", tiktok: ""},
-        active: true,
-        host: true
+    active: true,
+    host: false,
+  },
+  {
+    group: "Mustard Seed",
+    school: "Boston University",
+    location: "Boston, Massachusetts",
+    logo: <StaticImage src="../images/logos/BU.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/BU.png" class="group-photo" />
+    ),
+    media: {
+      email: "bumseed@gmail.com",
+      website: "https://www.bumustardseed.com/",
+      facebook: "https://www.facebook.com/BUMustardSeedOfficial/",
+      instagram: "https://www.instagram.com/bumustardseed/",
+      tiktok: "",
     },
-    {
-        group: "Jubilation!",
-        school: "Columbia",
-        location: "New York City, New York",
-        logo: <StaticImage src='../images/logos/Columbia.jpg' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Columbia.jpg' class="group-photo"/>,
-        media: {email: "jubilationcu@gmail.com", website: "https://www.jube.org/", facebook: "https://www.facebook.com/jubilationCU", instagram: "https://www.instagram.com/jubilationcu/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Joyful Noise",
+    school: "Carnegie Mellon",
+    location: "Pittsburgh, Pennsylvania",
+    logo: <StaticImage src="../images/logos/Carnegie.jpg" class="host-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/CMU.JPG" class="host-photo" />
+    ),
+    media: {
+      email: "cmujoyfulnoise@gmail.com",
+      website: "",
+      facebook: "https://www.facebook.com/cmujoyfulnoise",
+      instagram: "https://www.instagram.com/cmujoyfulnoise/",
+      tiktok: "",
     },
-    {
-        group: "Measureless",
-        school: "Cornell",
-        location: "Ithaca, New York",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "cornell.measureless@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/cornell.measureless/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: true,
+  },
+  {
+    group: "Jubilation!",
+    school: "Columbia",
+    location: "New York City, New York",
+    logo: <StaticImage src="../images/logos/Columbia.jpg" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/Columbia.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "jubilationcu@gmail.com",
+      website: "https://www.jube.org/",
+      facebook: "https://www.facebook.com/jubilationCU",
+      instagram: "https://www.instagram.com/jubilationcu/",
+      tiktok: "",
     },
-    // {
-    //     group: "Something Borrowed Something Blue",
-    //     school: "Duke",
-    //     location: "Durham, North Carolina",
-    //     logo: "",
-    //     groupPhoto: "",
-    //     media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-    //     active: true,
-    //     host: false
-    // },
-    {
-        group: "Under Construction",
-        school: "Harvard",
-        location: "Cambridge, Massachusetts",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "", website: "", facebook: "", instagram: "https://www.instagram.com/undercon_music/", tiktok: ""},
-        active: false,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Measureless",
+    school: "Cornell",
+    location: "Ithaca, New York",
+    logo: "",
+    groupPhoto: "",
+    media: {
+      email: "cornell.measureless@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/cornell.measureless/",
+      tiktok: "",
     },
-    {
-        group: "Adoremus",
-        school: "Johns Hopkins",
-        location: "Baltimore, Maryland",
-        logo: <StaticImage src='../images/logos/JHU.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/JHU.jpg' class="group-photo"/>,
-        media: {email: "adoremusjhu@gmail.com", website: "https://sites.google.com/view/jhu-adoremus/home", facebook: "https://www.facebook.com/jhuadoremus/", instagram: "https://www.instagram.com/adoremusjhu/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  // {
+  //     group: "Something Borrowed Something Blue",
+  //     school: "Duke",
+  //     location: "Durham, North Carolina",
+  //     logo: "",
+  //     groupPhoto: "",
+  //     media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
+  //     active: true,
+  //     host: false
+  // },
+  {
+    group: "Under Construction",
+    school: "Harvard",
+    location: "Cambridge, Massachusetts",
+    logo: "",
+    groupPhoto: "",
+    media: {
+      email: "",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/undercon_music/",
+      tiktok: "",
     },
-    {
-        group: "Shine",
-        school: "Liberty University",
-        location: "Lynchburg, Virginia",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: false,
-        host: false
+    active: false,
+    host: false,
+  },
+  {
+    group: "Adoremus",
+    school: "Johns Hopkins",
+    location: "Baltimore, Maryland",
+    logo: <StaticImage src="../images/logos/JHU.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/JHU.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "adoremusjhu@gmail.com",
+      website: "https://sites.google.com/view/jhu-adoremus/home",
+      facebook: "https://www.facebook.com/jhuadoremus/",
+      instagram: "https://www.instagram.com/adoremusjhu/",
+      tiktok: "",
     },
-    {
-        group: "Cross Products",
-        school: "MIT",
-        location: "Cambridge, Massachusetts",
-        logo: <StaticImage src='../images/logos/MIT.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/MIT.jpg' class="group-photo"/>,
-        media: {email: "xprod-exec@mit.edu", website: "https://xprod.mit.edu/", facebook: "https://www.facebook.com/crossproducts", instagram: "https://www.instagram.com/mit.crossproducts/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Shine",
+    school: "Liberty University",
+    location: "Lynchburg, Virginia",
+    logo: "",
+    groupPhoto: "",
+    media: { email: "", website: "", facebook: "", instagram: "", tiktok: "" },
+    active: false,
+    host: false,
+  },
+  {
+    group: "Cross Products",
+    school: "MIT",
+    location: "Cambridge, Massachusetts",
+    logo: <StaticImage src="../images/logos/MIT.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/MIT.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "xprod-exec@mit.edu",
+      website: "https://xprod.mit.edu/",
+      facebook: "https://www.facebook.com/crossproducts",
+      instagram: "https://www.instagram.com/mit.crossproducts/",
+      tiktok: "",
     },
-    {
-        group: "Shine",
-        school: "NYU",
-        location: "New York City, New York",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "", website: "", facebook: "", instagram: "https://www.instagram.com/nyushine/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Shine",
+    school: "NYU",
+    location: "New York City, New York",
+    logo: "",
+    groupPhoto: "",
+    media: {
+      email: "",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/nyushine/",
+      tiktok: "",
     },
-    {
-        group: "Kindred Spirit",
-        school: "Princeton",
-        location: "Princeton, New Jersey",
-        logo: <StaticImage src='../images/logos/Princeton.png' class="group-logo black-bckgrd"/>,
-        groupPhoto: <StaticImage src='../images/groups/Princeton.jpg' class="group-photo"/>,
-        media: {email: "kspirit@princeton.edu", website: "", facebook: "", instagram: "https://www.instagram.com/princetonkindredspirit/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Kindred Spirit",
+    school: "Princeton",
+    location: "Princeton, New Jersey",
+    logo: (
+      <StaticImage
+        src="../images/logos/Princeton.png"
+        class="group-logo black-bckgrd"
+      />
+    ),
+    groupPhoto: (
+      <StaticImage src="../images/groups/Princeton.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "kspirit@princeton.edu",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/princetonkindredspirit/",
+      tiktok: "",
     },
-    {
-        group: "First Light",
-        school: "Rutgers",
-        location: "New Brunswick, New Jersey",
-        logo: <StaticImage src='../images/logos/Rutgers.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Rutgers.jpg' class="group-photo"/>,
-        media: {email: "firstlightru@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/firstlightru/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "First Light",
+    school: "Rutgers",
+    location: "New Brunswick, New Jersey",
+    logo: <StaticImage src="../images/logos/Rutgers.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/Rutgers.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "firstlightru@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/firstlightru/",
+      tiktok: "",
     },
-    {
-        group: "Testimony",
-        school: "Stanford",
-        location: "Palo Alto, California",
-        logo: <StaticImage src='../images/logos/Stanford.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Testimony.jpg' class="group-photo"/>,
-        media: {email: "testimony@lists.stanford.edu", website: "https://testimonyacappella.weebly.com/", facebook: "https://www.facebook.com/testimonyacappella/", instagram: "https://www.instagram.com/testimonyacappella/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Testimony",
+    school: "Stanford",
+    location: "Palo Alto, California",
+    logo: <StaticImage src="../images/logos/Stanford.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/Testimony.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "testimony@lists.stanford.edu",
+      website: "https://testimonyacappella.weebly.com/",
+      facebook: "https://www.facebook.com/testimonyacappella/",
+      instagram: "https://www.instagram.com/testimonyacappella/",
+      tiktok: "",
     },
-    {
-        group: "Voice of Hope",
-        school: "The College of New Jersey",
-        location: "Ewing Township, New Jersey",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "vofhope@tcnj.edu", website: "", facebook: "", instagram: "https://www.instagram.com/tcnj_voh/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Voice of Hope",
+    school: "The College of New Jersey",
+    location: "Ewing Township, New Jersey",
+    logo: "",
+    groupPhoto: "",
+    media: {
+      email: "vofhope@tcnj.edu",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/tcnj_voh/",
+      tiktok: "",
     },
-    {
-        group: "For Christ's Sake",
-        school: "UC Berkeley",
-        location: "Berkeley, California",
-        logo: <StaticImage src='../images/logos/UC Berkeley.jpg' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/UC Berkeley.jpeg' class="group-photo"/>,
-        media: {email: "fcsberkeley@gmail.com", website: "https://forchristssake.berkeley.edu", facebook: "https://www.facebook.com/fcsacappella", instagram: "https://www.instagram.com/fcsacappella/", tiktok: "https://www.tiktok.com/@fcsacappella"},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "For Christ's Sake",
+    school: "UC Berkeley",
+    location: "Berkeley, California",
+    logo: (
+      <StaticImage src="../images/logos/UC Berkeley.jpg" class="group-logo" />
+    ),
+    groupPhoto: (
+      <StaticImage
+        src="../images/groups/UC Berkeley.jpeg"
+        class="group-photo"
+      />
+    ),
+    media: {
+      email: "fcsberkeley@gmail.com",
+      website: "https://forchristssake.berkeley.edu",
+      facebook: "https://www.facebook.com/fcsacappella",
+      instagram: "https://www.instagram.com/fcsacappella/",
+      tiktok: "https://www.tiktok.com/@fcsacappella",
     },
-    {
-        group: "Road to Damascus",
-        school: "UCLA",
-        location: "Los Angeles, California",
-        logo: <StaticImage src='../images/logos/UCLA.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/UCLA.jpg' class="group-photo"/>,
-        media: {email: "rtdacappella@gmail.com", website: "https://rtdacappella.weebly.com/", facebook: "https://www.facebook.com/rtdacappella", instagram: "https://www.instagram.com/rtdacappella/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Road to Damascus",
+    school: "UCLA",
+    location: "Los Angeles, California",
+    logo: <StaticImage src="../images/logos/UCLA.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/UCLA.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "rtdacappella@gmail.com",
+      website: "https://rtdacappella.weebly.com/",
+      facebook: "https://www.facebook.com/rtdacappella",
+      instagram: "https://www.instagram.com/rtdacappella/",
+      tiktok: "",
     },
-    {
-        group: "Psalm 100",
-        school: "University of North Carolina",
-        location: "Chapel Hill, North Carolina",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "", website: "", facebook: "", instagram: "", tiktok: ""},
-        active: false,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Psalm 100",
+    school: "University of North Carolina",
+    location: "Chapel Hill, North Carolina",
+    logo: "",
+    groupPhoto: "",
+    media: { email: "", website: "", facebook: "", instagram: "", tiktok: "" },
+    active: false,
+    host: false,
+  },
+  {
+    group: "Full Measure",
+    school: "University of Pennsylvania",
+    location: "Philadelphia, Pennsylvania",
+    logo: <StaticImage src="../images/logos/UPenn.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/UPenn.png" class="group-photo" />
+    ),
+    media: {
+      email: "fullmeasure.penn@gmail.com",
+      website: "http://full-measure.org",
+      facebook: "https://www.facebook.com/FullMeasure",
+      instagram: "https://www.instagram.com/upenn.fullmeasure/",
+      tiktok: "https://www.tiktok.com/@upennfullmeasure",
     },
-    {
-        group: "Full Measure",
-        school: "University of Pennsylvania",
-        location: "Philadelphia, Pennsylvania",
-        logo: <StaticImage src='../images/logos/UPenn.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/UPenn.png' class="group-photo"/>,
-        media: {email: "fullmeasure.penn@gmail.com", website: "http://full-measure.org", facebook: "https://www.facebook.com/FullMeasure", instagram: "https://www.instagram.com/upenn.fullmeasure/", tiktok: "https://www.tiktok.com/@upennfullmeasure"},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Mosaic",
+    school: "University of Pittsburgh",
+    location: "Pittsburgh, Pennsylvania",
+    logo: <StaticImage src="../images/logos/UPitt.png" class="host-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/UPitt.jpeg" class="host-photo" />
+    ),
+    media: {
+      email: "acappellamosaic@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/mosaic_acappella",
+      tiktok: "",
     },
-    {
-        group: "Mosaic",
-        school: "University of Pittsburgh",
-        location: "Pittsburgh, Pennsylvania",
-        logo: <StaticImage src='../images/logos/UPitt.png' class="host-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/UPitt.jpeg' class="host-photo"/>,
-        media: {email: "acappellamosaic@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/mosaic_acappella", tiktok: ""},
-        active: true,
-        host: true
+    active: true,
+    host: true,
+  },
+  {
+    group: "Christian Hoos Exalt",
+    school: "University of Virginia",
+    location: "Charlottesville, Virginia",
+    logo: "",
+    groupPhoto: "",
+    media: {
+      email: "choose-exec@virginia.edu",
+      website: "https://christianhoosexalt.wixsite.com/website",
+      facebook: "https://www.facebook.com/CHoosE.at.UVA",
+      instagram: "https://www.instagram.com/christianhoosexalt/",
+      tiktok: "",
     },
-    {
-        group: "Christian Hoos Exalt",
-        school: "University of Virginia",
-        location: "Charlottesville, Virginia",
-        logo: "",
-        groupPhoto: "",
-        media: {email: "choose-exec@virginia.edu", website: "https://christianhoosexalt.wixsite.com/website", facebook: "https://www.facebook.com/CHoosE.at.UVA", instagram: "https://www.instagram.com/christianhoosexalt/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Overflow",
+    school: "USC",
+    location: "Los Angeles, California",
+    logo: (
+      <StaticImage
+        src="../images/logos/USC.png"
+        class="group-logo black-bckgrd"
+      />
+    ),
+    groupPhoto: (
+      <StaticImage src="../images/groups/Overflow.JPEG" class="group-photo" />
+    ),
+    media: {
+      email: "overflow.usc@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/overflowacappella/",
+      tiktok: "",
     },
-    {
-        group: "Overflow",
-        school: "USC",
-        location: "Los Angeles, California",
-        logo: <StaticImage src='../images/logos/USC.png' class="group-logo black-bckgrd"/>,
-        groupPhoto: <StaticImage src='../images/groups/Overflow.JPEG' class="group-photo"/>,
-        media: {email: "overflow.usc@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/overflowacappella/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Awaken the Dawn",
+    school: "Wellesley",
+    location: "Wellesley, Massachusetts",
+    logo: (
+      <StaticImage src="../images/logos/Wellesley.jpg" class="group-logo" />
+    ),
+    groupPhoto: "",
+    media: {
+      email: "awakenthedawn_wcso@wellesley.edu",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/awaken.the.dawn/",
+      tiktok: "",
     },
-    {
-        group: "Awaken the Dawn",
-        school: "Wellesley",
-        location: "Wellesley, Massachusetts",
-        logo: <StaticImage src='../images/logos/Wellesley.jpg' class="group-logo"/>,
-        groupPhoto: "",
-        media: {email: "awakenthedawn_wcso@wellesley.edu", website: "", facebook: "", instagram: "https://www.instagram.com/awaken.the.dawn/", tiktok: ""},
-        active: true,
-        host: false
+    active: true,
+    host: false,
+  },
+  {
+    group: "Living Water",
+    school: "Yale",
+    location: "New Haven, Connecticut",
+    logo: <StaticImage src="../images/logos/Yale.png" class="group-logo" />,
+    groupPhoto: (
+      <StaticImage src="../images/groups/Yale.jpg" class="group-photo" />
+    ),
+    media: {
+      email: "livingwateratyale@gmail.com",
+      website: "",
+      facebook: "",
+      instagram: "https://www.instagram.com/livingwateratyale/",
+      tiktok: "",
     },
-    {
-        group: "Living Water",
-        school: "Yale",
-        location: "New Haven, Connecticut",
-        logo: <StaticImage src='../images/logos/Yale.png' class="group-logo"/>,
-        groupPhoto: <StaticImage src='../images/groups/Yale.jpg' class="group-photo"/>,
-        media: {email: "livingwateratyale@gmail.com", website: "", facebook: "", instagram: "https://www.instagram.com/livingwateratyale/", tiktok: ""},
-        active: true,
-        host: false
-    }
+    active: true,
+    host: false,
+  },
 ];
 
-export default Groups
+export default Groups;
