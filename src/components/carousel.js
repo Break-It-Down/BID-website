@@ -20,6 +20,7 @@ for (var i = 0; i < PastEvents.length; i++) {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
         ) : (
@@ -36,7 +37,7 @@ for (var i = 0; i < PastEvents.length; i++) {
         <br />
         {curr.host}
       </p>
-    </article>
+    </article>,
   );
 }
 
